@@ -1,4 +1,8 @@
 {
-  "version": 1,
-  "layouts": ["default.json", "mission.json", "side-by-side.json"]
+	"version": 1,
+	"layouts": [
+		"side-by-side.json",
+		"default.json",
+		"mission.json"
+	]
 }
