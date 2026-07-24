@@ -1,0 +1,104 @@
+{
+	"v": 2,
+	"label": "03 Complete",
+	"telemetry": {
+		"width": 0.1684,
+		"height": 0.4652,
+		"left": 0.1474,
+		"bottom": 0.0094
+	},
+	"stats": {
+		"width": 0.4632,
+		"height": 0.0367,
+		"left": 0.0211,
+		"top": 0.2505
+	},
+	"streams": {
+		"width": 0.1053,
+		"height": 0.0367,
+		"left": 0.1684,
+		"bottom": 0.4379
+	},
+	"statsMetricIds": [
+		"current",
+		"heading",
+		"altitude",
+		"voltage"
+	],
+	"telemetryMetricIds": [
+		"altitudeMSL",
+		"altitudeREL",
+		"groundSpeed",
+		"climbRate",
+		"heading",
+		"battery",
+		"voltage",
+		"current",
+		"gpsFix",
+		"satellites",
+		"hdop",
+		"flightMode",
+		"armed"
+	],
+	"focusMode": "medium",
+	"uiScale": 3,
+	"followMode": true,
+	"followOffset": {
+		"x": 0.1687,
+		"y": -0.2825
+	},
+	"mapType": "satellite",
+	"showMission": true,
+	"videosHidden": false,
+	"controlPresentation": false,
+	"missionCollapsed": false,
+	"inclinationCollapsed": false,
+	"collapsedPanels": {
+		"telemetry": false,
+		"stats": true,
+		"streams": true
+	},
+	"streamKeys": [
+		"AIR6-GW-1-1"
+	],
+	"streamOverlays": [
+		{
+			"enabled": true,
+			"hud": true,
+			"navOrb": true,
+			"framing": true,
+			"label": true,
+			"joysticks": true,
+			"alarms": true,
+			"home": true,
+			"mission": true,
+			"detection": false
+		}
+	],
+	"control": {
+		"width": 0.1684,
+		"height": 0.4652,
+		"left": 0.3158,
+		"bottom": 0.0094
+	},
+	"controlCollapsed": false,
+	"mission": {
+		"width": 0.1474,
+		"height": 0.5367,
+		"right": -0.0105,
+		"bottom": 0.0094
+	},
+	"call": {
+		"width": 0.1474,
+		"height": 0.4652,
+		"left": 0,
+		"bottom": 0.0094
+	},
+	"callCollapsed": false,
+	"videoColumn": {
+		"width": 0.4842,
+		"height": 1,
+		"left": 0,
+		"top": 0
+	}
+}
