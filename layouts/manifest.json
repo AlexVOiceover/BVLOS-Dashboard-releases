@@ -2,7 +2,7 @@
 	"version": 1,
 	"layouts": [
 		"01-default.json",
-		"02-maual-flight.json",
+		"02-manual-flight.json",
 		"03-complete.json"
 	]
 }
