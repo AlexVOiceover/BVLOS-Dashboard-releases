@@ -1,8 +1,8 @@
 {
 	"version": 1,
 	"layouts": [
-		"side-by-side.json",
-		"default.json",
-		"mission.json"
+		"01-default.json",
+		"02-maual-flight.json",
+		"03-complete.json"
 	]
 }
