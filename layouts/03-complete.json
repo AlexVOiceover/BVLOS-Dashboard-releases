@@ -83,11 +83,18 @@
 	},
 	"controlCollapsed": false,
 	"mission": {
-		"width": 0.1474,
+		"width": 0.1684,
 		"height": 0.5367,
-		"right": -0.0105,
+		"right": 0,
 		"bottom": 0.0094
 	},
+	"safecage": {
+		"width": 0.1684,
+		"height": 0.3936,
+		"right": 0,
+		"top": 0
+	},
+	"safecageCollapsed": false,
 	"call": {
 		"width": 0.1474,
 		"height": 0.4652,
