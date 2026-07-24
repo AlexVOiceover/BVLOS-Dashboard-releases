@@ -88,6 +88,13 @@
 		"right": 0.0105,
 		"bottom": 0.0094
 	},
+	"safecage": {
+		"width": 0.1474,
+		"height": 0.4652,
+		"left": 0.1684,
+		"bottom": 0.0094
+	},
+	"safecageCollapsed": false,
 	"call": {
 		"width": 0.1474,
 		"height": 0.4652,
