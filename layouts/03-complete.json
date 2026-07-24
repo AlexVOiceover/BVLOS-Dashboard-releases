@@ -2,22 +2,22 @@
 	"v": 2,
 	"label": "03 Complete",
 	"telemetry": {
-		"width": 0.1684,
-		"height": 0.4652,
-		"left": 0.1474,
-		"bottom": 0.0094
+		"width": 0.185,
+		"height": 0.4606,
+		"left": 0.1439,
+		"bottom": 0.015
 	},
 	"stats": {
-		"width": 0.4632,
-		"height": 0.0367,
-		"left": 0.0211,
-		"top": 0.2505
+		"width": 0.4729,
+		"height": 0.0389,
+		"left": 0.0206,
+		"top": 0.2632
 	},
 	"streams": {
-		"width": 0.1053,
-		"height": 0.0367,
-		"left": 0.1684,
-		"bottom": 0.4379
+		"width": 0.1028,
+		"height": 0.0389,
+		"left": 0.1645,
+		"bottom": 0.4367
 	},
 	"statsMetricIds": [
 		"current",
@@ -76,34 +76,34 @@
 		}
 	],
 	"control": {
-		"width": 0.1684,
-		"height": 0.4652,
-		"left": 0.3158,
-		"bottom": 0.0094
+		"width": 0.1645,
+		"height": 0.4606,
+		"left": 0.329,
+		"bottom": 0.015
 	},
 	"controlCollapsed": false,
 	"mission": {
-		"width": 0.1684,
-		"height": 0.5367,
-		"right": 0,
-		"bottom": 0.0094
+		"width": 0.1439,
+		"height": 0.5264,
+		"right": -0.0075,
+		"bottom": 0.015
 	},
 	"safecage": {
-		"width": 0.1684,
-		"height": 0.3936,
-		"right": 0,
+		"width": 0.1439,
+		"height": 0.3948,
+		"right": -0.0075,
 		"top": 0
 	},
 	"safecageCollapsed": false,
 	"call": {
-		"width": 0.1474,
-		"height": 0.4652,
+		"width": 0.1439,
+		"height": 0.4606,
 		"left": 0,
-		"bottom": 0.0094
+		"bottom": 0.015
 	},
 	"callCollapsed": false,
 	"videoColumn": {
-		"width": 0.4842,
+		"width": 0.4935,
 		"height": 1,
 		"left": 0,
 		"top": 0
