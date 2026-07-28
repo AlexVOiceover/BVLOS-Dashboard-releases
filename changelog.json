@@ -1,0 +1,626 @@
+{
+	"version": 1,
+	"releases": [
+		{
+			"version": "0.36.0",
+			"date": "2026-07-24",
+			"highlights": [
+				"After the app updates and restarts, a \"What's new\" window now lists everything that changed since the version you were on, so you can see what you got.",
+				"When you check for updates and one is found, the incoming release notes now appear at the top of the Changelog while it downloads, so you can read what is coming."
+			]
+		},
+		{
+			"version": "0.35.0",
+			"date": "2026-07-24",
+			"highlights": [
+				"Redesigned the Mission panel to match the rest of the app: a clear top section with labelled Length, Est. time, Max alt and Items plus a \"Read from drone\" button, a short colour-coded status pill, and a waypoint list with proper column headers (the right-hand number is now labelled \"To next\").",
+				"Panel text is easier to read over the map: data rows, section headers and panel titles all get a dark backing in focus mode instead of washing out.",
+				"The Mission waypoint list (and the Graphs chart list) now show a scrollbar when they overflow, like the other panels.",
+				"Telemetry, Control, Mission and Graphs can now be resized taller than their content to fill the screen, instead of snapping back to fit.",
+				"Panels are no longer forced too wide on large screens and projectors: their minimum width now follows the content, not the screen size.",
+				"Fixed a case where a saved video-call key could still leave the call panel hidden; entering a valid key now always enables calls."
+			]
+		},
+		{
+			"version": "0.34.0",
+			"date": "2026-07-24",
+			"highlights": [
+				"New \"Snap to grid\" toggle in the Layout panel: turn it off to move and resize panels freely, with no grid snapping or edge magnetism. The setting is remembered.",
+				"Dragging a panel past the left or right edge no longer shrinks its width, it just stops at the edge. (Dragging past the bottom still shrinks height, as before.)"
+			]
+		},
+		{
+			"version": "0.33.3",
+			"date": "2026-07-24",
+			"highlights": [
+				"A saved layout is now a full snapshot: panels you had hidden when you saved it (Geofence, Control, Mission, extra Telemetry/Graphs) are hidden again when you apply it, so a layout looks exactly as saved. (The Control panel still stays visible while the joystick is armed, for safety.)"
+			]
+		},
+		{
+			"version": "0.33.2",
+			"date": "2026-07-24",
+			"highlights": [
+				"Activating a mission now takes effect right away: the simulator restarts automatically and flies the new route, instead of staying on the old one until you restarted by hand.",
+				"The Geofence panel now remembers its position and size in your saved layouts, and grows the altitude band (not the buttons) when you make it taller.",
+				"Reworked the mission-video sync tool: open it from a Sync button on a mission in Admin, then scrub the video to the matching frame and tap to align. Clearer steps, no more freezing.",
+				"Added a way to copy a layout as JSON (for the person who maintains the shared default layouts)."
+			]
+		},
+		{
+			"version": "0.33.1",
+			"date": "2026-07-23",
+			"highlights": [
+				"The map credit no longer sits on the map: it moved to the Admin page. Clicking it used to take over the whole app window with no way back.",
+				"Panels now snap flush to whatever is next to them: drag one up against the video (or beside another panel) and it sticks edge-to-edge instead of leaving a one-cell gap.",
+				"The unusable strip at the very bottom of the screen (smaller than one grid cell) is now a clean black band, so panels reach the bottom edge flush.",
+				"Tidied the Add-a-mission form: the waypoints and video file pickers now use the same \"Choose file\" button and layout."
+			]
+		},
+		{
+			"version": "0.33.0",
+			"date": "2026-07-23",
+			"highlights": [
+				"Rebuilt panel layout: panels snap to a consistent grid with no gaps or overlaps, touch each other and the edges cleanly, and push-to-shrink lets you keep dragging a panel past another by shrinking it, all snapping to the grid.",
+				"Consistent panel styling across the whole dashboard: same background, borders, fonts and text sizes everywhere, and panels now show a scrollbar when their content overflows.",
+				"Safe Cage is now called Geofence, with a redesigned panel: set the floor and ceiling by dragging handles on a visual altitude band instead of typing numbers.",
+				"Simpler simulator video: one Video Source choice (synthetic world or real video) instead of three overlapping switches.",
+				"Missions are now saved sets of waypoints plus an optional video: activate one and its video loads automatically. A default stadium demo mission and video ship out of the box.",
+				"Real missions keep their speed changes and other flight commands when uploaded to the simulator, so the sim flies them faithfully.",
+				"Tidied the Hangar drone cards and removed a couple of controls that were not needed."
+			]
+		},
+		{
+			"version": "0.32.0",
+			"date": "2026-07-23",
+			"highlights": [
+				"Reliability fix for automatic updates: the release now always publishes with a working installer and update feed, so updating to new versions is dependable."
+			]
+		},
+		{
+			"version": "0.31.0",
+			"date": "2026-07-23",
+			"highlights": [
+				"New simulator mission video library: pair a real flight video with the Mission Planner waypoints it was flown on, and the simulator flies that route while your recording plays as the feed (in AUTO). Great for realistic demos without a live drone.",
+				"Save several named sets (mission plus video) and switch between them. Each set remembers its own video and its own sync alignment, so once you tune one it stays tuned.",
+				"Videos are referenced by their location on disk, never copied or uploaded, so large clips load instantly and take no extra space.",
+				"The Admin page now has a dedicated Simulator tab that gathers the simulator, local video, synthetic view, and mission video library in one place, with the video sources grouped so it is clear only one shows at a time."
+			]
+		},
+		{
+			"version": "0.30.0",
+			"date": "2026-07-23",
+			"highlights": [
+				"The Layout panel now has a clearer \"Screen size\" picker (Laptop, Monitor, Big screen, Projector) in place of the old XS to XL scale. Pick your display and the app sizes the interface to suit it. It even suggests a size based on your screen, and you can always change it.",
+				"Fixed panel stacking: the Safe Cage panel (and others) now come to the front when you click them, instead of getting stuck behind everything. Only the Layout and Control panels stay pinned on top.",
+				"Panels now sit flush against the header again instead of slipping slightly underneath it.",
+				"The simulator now starts hovering at 35 m so the synthetic view opens above the home marker instead of inside it."
+			]
+		},
+		{
+			"version": "0.29.0",
+			"date": "2026-07-23",
+			"highlights": [
+				"Setup wizard no longer gets stuck on \"Listening for heartbeat\". The Telemetry step now confirms the app is ready to receive telemetry (listening on the port with a source selected) instead of waiting for a live drone, so you can finish setup without a powered aircraft.",
+				"If a drone is streaming during setup you still get the stronger \"Telemetry is flowing\" confirmation; otherwise it shows \"Ready to receive telemetry\" and lets you continue."
+			]
+		},
+		{
+			"version": "0.28.0",
+			"date": "2026-07-22",
+			"highlights": [
+				"New \"Reset layouts to defaults\" action on the Admin page: pulls the latest default dashboard layouts from the server and replaces the ones stored on this unit. It only replaces them if the download succeeds, so an offline unit keeps its current layouts and shows a clear message.",
+				"Telemetry values are much easier to read over the map in focus mode: each field now sits on a darker background for stronger contrast, applied consistently across panels.",
+				"Removed the \"Show grid\" button from the Layout panel (panels still snap to the grid as before).",
+				"Fixed a crash that could blank the dashboard when applying or resetting a layout."
+			]
+		},
+		{
+			"version": "0.27.0",
+			"date": "2026-07-22",
+			"highlights": [
+				"Synthetic view waypoints now match the map: cyan numbered ring badges on a dashed cyan route, with the current waypoint in green, plus a green \"Airborne Robotics\" HQ house and the fly-here target and geofence shown in the scene.",
+				"The Mission panel now reads the mission from the drone automatically when you open it, so you no longer have to press \"read from drone\" each time.",
+				"External links (like the map tile attribution) now open in your default browser instead of taking over the app window, so you never get stranded off the dashboard.",
+				"Header refresh: taller pure-black top bar, slightly larger buttons that scale properly, and the title spacing no longer shifts when you change the UI scale.",
+				"Selected and active buttons now use the corporate red instead of green.",
+				"The video loading screen now uses the Arial brand font, and the Layout panel section is renamed \"Dashboard Layouts\"."
+			]
+		},
+		{
+			"version": "0.26.0",
+			"date": "2026-07-21",
+			"highlights": [
+				"New synthetic video view for the simulator: a live, futuristic line-art cockpit view rendered from telemetry, so the picture actually responds to your joystick and mission instead of playing an unrelated clip. It is on by default when the simulator is the source, and can be turned off from the Admin page.",
+				"The synthetic view flies with you: the ground grid banks and turns as you yaw, the camera tilts with the gimbal, and the scene scrolls with your speed.",
+				"Shows your world in the view: the mission path with waypoints floating above the ground, a green house marking home, a \"fly here\" reticle for pending targets, and scattered wind turbines for a sense of place.",
+				"The geofence appears as a glowing barrier: amber when drawn, red when active, with translucent walls so you can see the boundary at a glance.",
+				"Simulator now starts hovering at 8 m with the camera angled slightly up, and sits on the ground at altitude 0."
+			]
+		},
+		{
+			"version": "0.25.5",
+			"date": "2026-07-21",
+			"highlights": [
+				"The Control panel can no longer be dragged much taller than its contents. It now stretches to at most 20% past its fitted height, enough to fill a small gap in your layout without looking awkwardly over-stretched."
+			]
+		},
+		{
+			"version": "0.25.4",
+			"date": "2026-07-21",
+			"highlights": [
+				"The aircraft selector now shows gateways as online only when they really are. On a machine with no Bridge running, gateways used to appear green (live) even though nothing was connected; they now correctly show as not live."
+			]
+		},
+		{
+			"version": "0.25.3",
+			"date": "2026-07-21",
+			"highlights": [
+				"Fixed setup for simulator-only use: if you skip the Bridge and Gateways steps, \"Open dashboard\" now works (before, it silently sent you back to the start).",
+				"The setup summary is now honest about skipped steps: it shows a clear \"skipped\" note for anything you did not set up, instead of falsely saying it was saved or verified.",
+				"Update checks no longer report an update before it is fully ready: a release is now only offered once every platform build has finished, fixing the \"cannot find latest.yml\" error."
+			]
+		},
+		{
+			"version": "0.25.2",
+			"date": "2026-07-21",
+			"highlights": [
+				"Setup wizard can now be used with just the local simulator: the Bridge step and the Gateways step both have a Skip button, so you no longer need Bridge credentials or saved gateways to finish setup and try the app.",
+				"The Gateways step no longer forces you to save before continuing.",
+				"Fixed the setup password field starting empty when a password was already saved: it now shows as filled (dots), so you do not have to retype it. Type a new one only if you want to change it."
+			]
+		},
+		{
+			"version": "0.25.1",
+			"date": "2026-07-21",
+			"highlights": [
+				"New app icon.",
+				"The in-video flight display now scales with the layout size setting, so it grows and shrinks together with the rest of the panels.",
+				"Reworked the size settings: the two largest steps were too big, so the range now runs smaller (the old medium is the new largest), with two extra small steps added.",
+				"The aircraft pill in the header now matches the size of the navigation buttons and stays readable at small size settings, with its text properly centered.",
+				"Removed the presentation-mode button from the Control panel; all control sections are always shown."
+			]
+		},
+		{
+			"version": "0.25.0",
+			"date": "2026-07-21",
+			"highlights": [
+				"The app is now called Airborne Robotics Flight Monitor, with a new AR icon. Updating from the old version: run the new installer once. Your gateways, layouts and settings carry over automatically and the old version is removed for you. Updates after that are automatic as before.",
+				"Redesigned header that adapts to the window width: the product name and navigation on the top row, panel buttons centered (or on a second row when narrow), so nothing is ever cut off.",
+				"The connection status is now part of the aircraft pill (its dot shows the live link and the messages-per-second), so there is one clear indicator instead of two.",
+				"On the simulator, the video now shows a short, realistic connecting sequence before it appears.",
+				"Colours across the app were aligned to the red, black and white brand (status colours that carry meaning, like green for live and amber for warnings, were kept)."
+			]
+		},
+		{
+			"version": "0.24.13",
+			"date": "2026-07-20",
+			"highlights": [
+				"The video panel now keeps showing the connecting animation (flashing status light) while it waits for the feed, instead of dropping to a \"No video\" message when the camera is not sending yet.",
+				"When a camera comes online after the dashboard is already open, its video now appears on its own, no page reload needed. The panel also recovers cleanly if the camera drops and comes back."
+			]
+		},
+		{
+			"version": "0.24.12",
+			"date": "2026-07-20",
+			"highlights": [
+				"Joystick flying feels snappier: control commands now go over a faster, always-on connection and are sent more often, cutting local input lag. (The mobile link to the drone is still the main limit.)",
+				"Object detection now runs in the background so it no longer slows down or stutters the live video feed while it is on.",
+				"Safe Cage no longer shows a false breach warning when the drone is inside the boundary. The warning now appears only when the aircraft is actually outside the area or altitude limits.",
+				"Safe Cage is locked while the fence is active: disable it first to change the shape or altitudes, so a live fence cannot be edited by accident.",
+				"Tidied the in-video Safe Cage indicator: it now shows just IN CAGE or OUTSIDE CAGE and no longer overlaps other on-screen warnings."
+			]
+		},
+		{
+			"version": "0.24.11",
+			"date": "2026-07-20",
+			"highlights": [
+				"More reliable drone connection on a fresh install. The app now always talks to the local bridge on this machine, so commands can no longer be sent to the wrong address if a settings file is copied over from another computer.",
+				"Added clearer relay diagnostics (a status view and startup log line showing the exact host and ports in use) to speed up troubleshooting in the field."
+			]
+		},
+		{
+			"version": "0.24.10",
+			"date": "2026-07-18",
+			"highlights": [
+				"You can now zoom in closer on the map (useful for lining up a landing spot). Past the map provider limit the imagery gets a little softer rather than stopping."
+			]
+		},
+		{
+			"version": "0.24.9",
+			"date": "2026-07-18",
+			"highlights": [
+				"The video loading screen now mimics the aircraft powering up: the drone GPS light flashes yellow while acquiring, then green when ready, before the live video appears.",
+				"When a gateway has no camera streaming, the panel now shows a clear \"No video signal\" message instead of a broken-looking display, and it stops repeatedly trying to connect.",
+				"Removed the redundant \"SIM: RUNNING\" tag from the top bar (the aircraft indicator already shows Simulator).",
+				"Removed the \"Read-Only Dashboard\" toggle from the Admin page.",
+				"Shortened the wording on the aircraft selection screen."
+			]
+		},
+		{
+			"version": "0.24.8",
+			"date": "2026-07-18",
+			"highlights": [
+				"While a video is loading, the panel now shows a \"Connecting to\" screen with the selected aircraft photo and its specs appearing one line at a time, then smoothly fades into the live feed.",
+				"Cleaner map icons for AIR8 and AIR4 Rugged: they now use the same clear arrow marker as AIR4 Light with a small distinguishing mark, instead of a cluttered shape that was hard to read."
+			]
+		},
+		{
+			"version": "0.24.7",
+			"date": "2026-07-18",
+			"highlights": [
+				"Turning on object detection now shows an \"Activating...\" message while it starts up (it takes a few seconds to load), so you know it is working.",
+				"Added a clear notice that object detection is experimental and can slow down the video, with a reminder to take care before using it while flying a real drone. A small \"AI detection (beta)\" tag also shows whenever it is running."
+			]
+		},
+		{
+			"version": "0.24.6",
+			"date": "2026-07-18",
+			"highlights": [
+				"Hardened the safety checks that stop two copies of the app (or two simulators) from controlling one drone at the same time. These were not working correctly in the installed app and now do."
+			]
+		},
+		{
+			"version": "0.24.5",
+			"date": "2026-07-18",
+			"highlights": [
+				"Fixed the local simulator still not starting in the installed app (the previous attempt did not fully address it). It now launches correctly."
+			]
+		},
+		{
+			"version": "0.24.4",
+			"date": "2026-07-17",
+			"highlights": [
+				"Fixed the local simulator not starting in the installed app. It now launches correctly regardless of where the app is installed."
+			]
+		},
+		{
+			"version": "0.24.3",
+			"date": "2026-07-17",
+			"highlights": [
+				"Improved diagnostics for the local simulator: if it fails to start, the app now records the exact reason in its log instead of failing quietly."
+			]
+		},
+		{
+			"version": "0.24.2",
+			"date": "2026-07-17",
+			"highlights": [
+				"Fixed the app getting stuck (no telemetry, simulator would not start) when more than one copy was open at once. Only one copy runs now: launching it again just brings the existing window to the front.",
+				"If the connection port is briefly busy (for example just after an update restart), the app now recovers on its own instead of silently staying disconnected."
+			]
+		},
+		{
+			"version": "0.24.1",
+			"date": "2026-07-17",
+			"highlights": [
+				"Fixed the app showing \"v?\" instead of its version number on the Admin page.",
+				"The Local Simulator button no longer gets stuck on \"Starting...\" if something goes wrong: it now times out and shows an error you can retry, and records what happened so the problem can be tracked down."
+			]
+		},
+		{
+			"version": "0.24.0",
+			"date": "2026-07-17",
+			"highlights": [
+				"New (preview): on-video object detection. Turn it on from a video panel gear menu and the app draws live boxes around people and vehicles it sees in the feed. It runs entirely on your machine, with no cloud and no internet needed.",
+				"Object detection is off by default, since it loads an AI model and keeps analysing the picture, which uses more of the computer. Switch it on per video only when you want it.",
+				"The on-video display now shows the full set of overlays by default when you open a stream, instead of starting mostly hidden."
+			]
+		},
+		{
+			"version": "0.23.0",
+			"date": "2026-07-17",
+			"highlights": [
+				"Double-click a video to make it fill the screen, and double-click again to drop it back to exactly where it was. Handy for taking a closer look at one feed.",
+				"In this full-screen view the video keeps its shape, so any leftover space on the sides (or top and bottom) is filled with plain black.",
+				"The on-video flight display (compass, nav ball, altitude tape, sticks and readouts) scales up to match the bigger picture, so it stays clear and balanced instead of looking tiny."
+			]
+		},
+		{
+			"version": "0.22.0",
+			"date": "2026-07-17",
+			"highlights": [
+				"Overlay settings for each video now open from a small gear on the video panel itself, in the same pop-up style used for the telemetry and stats panels. Hover a video to see the gear, click it to choose which overlay parts to show.",
+				"The Streams panel is now just the list of streams to turn on or off, with the overlay controls moved out of it, so it is simpler and less cluttered."
+			]
+		},
+		{
+			"version": "0.21.0",
+			"date": "2026-07-17",
+			"highlights": [
+				"The video overlay no longer shows Air Speed. Our drones have no airspeed sensor, so that reading was just the ground speed shown twice. Ground speed stays.",
+				"The home marker is clearer: the house on the compass and the house floating over the video are now dim until you point the aircraft at home, then both light up bright green together so you can see at a glance when you are lined up.",
+				"The floating home marker now swings around the edge of the video on a wider oval, so when home is off to the side it sits near the edge and stays out of the way instead of hovering over the middle of the picture.",
+				"When the Safe Cage is on, the altitude tape now shades the out-of-bounds heights in soft red (below the floor and above the ceiling), so the allowed altitude window is obvious at a glance.",
+				"Fixed the home and fly-here direction markers whipping all the way around the screen when the target passed directly behind the aircraft. They now glide smoothly."
+			]
+		},
+		{
+			"version": "0.20.0",
+			"date": "2026-07-17",
+			"highlights": [
+				"You can now run the simulator straight from the aircraft selector: pick Local Simulator instead of a gateway, no drone needed. It also switches the video to the built-in sample clip, and picking a real gateway switches it back.",
+				"The top bar always shows what you are controlling (a gateway name or Simulator) and clicking it takes you back to the selector. Stopping the simulator returns you there too, so you are never left on a dead feed.",
+				"New mission tape on the video overlay: a scrolling scale on the right, like the altitude tape, showing the current waypoint under a magnifier plus the upcoming waypoints and commands (speed changes, loiters). Shown while flying a mission.",
+				"Safe Cage is simpler and clearer: Upload and Verify are now one button, Clear sits next to Draw, and the altitude limits are labelled as height above home (matching the flight controller), with a note that the minimum-altitude floor only starts working once you climb above it.",
+				"Altitude on the video overlay is now marked as height above home, so it lines up with the safe cage limits.",
+				"New Check for updates button on the Admin changelog page, so you can confirm you are on the latest version without waiting."
+			]
+		},
+		{
+			"version": "0.19.2",
+			"date": "2026-07-17",
+			"highlights": [
+				"Fly here now works on the real aircraft: the reposition command is sent in the form the flight controller acts on, so the drone actually flies to the point you click (before, it accepted the command but did not move).",
+				"The fly here marker no longer vanishes the instant you press the button when the target is close to the drone. It stays until the aircraft has flown there and arrived.",
+				"Safe Cage upload to a real drone is fixed: the fence is sent with the correct command, so the aircraft accepts it instead of reporting an unsupported command.",
+				"The joystick now ships with the tuned feel from the bench (softer response around centre) as the default for any controller, so it feels right out of the box."
+			]
+		},
+		{
+			"version": "0.19.1",
+			"date": "2026-07-16",
+			"highlights": [
+				"Safe Cage drawing is smoother: a boundary point now follows your cursor when you drag it (it used to lock after a tiny move), and each edge has a small plus handle you click to add a point and refine the shape.",
+				"The safe cage now actually holds the aircraft at the boundary in the simulator: crossing out triggers the flight controller (Brake and hold, or whatever the drone is set to), the pilot sticks are ignored while it acts, and crossing out again after you fly back inside triggers it once more.",
+				"What the drone does on a breach is read from the flight controller (FENCE_ACTION) and shown in the panel, instead of the dashboard forcing a setting. Change it in Mission Planner if needed.",
+				"BRAKE is now a selectable flight mode on the Control panel (a hard stop and hold, keyboard B). It ignores the sticks until you pick another mode.",
+				"Clearer Safe Cage messages: an upload that gets no response now says the aircraft did not answer (not that it was rejected), and the outside the cage enable warning clears once you fly back inside."
+			]
+		},
+		{
+			"version": "0.19.0",
+			"date": "2026-07-16",
+			"highlights": [
+				"Safe Cage: draw a boundary (polygon plus min/max altitude) on the map and enforce it with the drone's own geofence. It is uploaded and read-back verified before you can enable it, the map and video show it live, and a clear banner appears if the aircraft is held at the boundary.",
+				"Safe Cage keeps you from sending the drone outside: a fly-here target outside the cage is refused and the commanded altitude is clamped to the allowed band. You can always disable the cage instantly.",
+				"Gateway setup is now a guided step in the wizard: add each aircraft (gateway) with its own tunnel port, save them for the launch picker, and copy the generated bridge config file to the Bridge machine.",
+				"The setup now works for any gateways, not just the built-in samples. Your own gateway names are used everywhere, and the video id is derived from your first gateway.",
+				"The CCS username is no longer hidden in setup (only the password is), so the generated bridge config shows the real username."
+			]
+		},
+		{
+			"version": "0.18.1",
+			"date": "2026-07-16",
+			"highlights": [
+				"Safety: only one dashboard server can talk to a drone at a time. If a second server starts, it refuses to touch the aircraft and shows drone control disabled, so two servers can never send conflicting mode or arm state for one drone.",
+				"The AIR4 Rugged battery warning levels were updated."
+			]
+		},
+		{
+			"version": "0.18.0",
+			"date": "2026-07-16",
+			"highlights": [
+				"New in-app joystick setup on the Admin page: map each flight axis by moving the matching stick (Throttle up, Yaw right, and so on), with per-stick Invert toggles and a live picture of the sticks, so odd controllers no longer need remapping in Windows or Ubuntu. Saved per controller.",
+				"Camera pitch is now mapped as a single control (a rocker or lever), captured in the same setup flow, with a live UP/DOWN indicator to confirm it.",
+				"Setup wizard now finds the Bridge for you: the Bridge address step checks the default automatically and says when a Bridge is found, so you do not have to guess what to type.",
+				"Joystick fine-tuning is now always available: hold the Sensitivity label on the Control panel to open the tuning bench (no developer flag needed). Changes save automatically and apply on the next stick input."
+			]
+		},
+		{
+			"version": "0.17.0",
+			"date": "2026-07-16",
+			"highlights": [
+				"New Hangar on the Admin page: pick the active drone (AIR4 Light, AIR4 Rugged, AIR8) from cards showing its photo, specs, and alarm thresholds. The choice sets the warning thresholds and the map marker for the whole app.",
+				"Each drone now has its own map marker shape (with a clear nose so heading is obvious), and the markers are larger and easier to see.",
+				"Battery and other warning levels are now per drone: the 4S and 12S aircraft warn and call land-now at their own correct pack voltages instead of one shared value.",
+				"Reverted the map-movement change from the previous release: the drone follows the map the way it did before, without the stepping and stalling that update introduced."
+			]
+		},
+		{
+			"version": "0.16.0",
+			"date": "2026-07-16",
+			"highlights": [
+				"The drone now glides smoothly on the map at every zoom level: the follow pan is animated instead of stepping pixel by pixel, so it no longer looks clicky when zoomed in.",
+				"New local video mode: play a bundled sample clip in the video panels without a gateway connection. Toggle it from the Admin page or the network diagram (a new Local Video box next to the Simulator).",
+				"The AUTO flight-mode button is now labelled AUTO everywhere, matching the video overlay and ArduPilot (it previously read MISSION on the Control panel)."
+			]
+		},
+		{
+			"version": "0.15.0",
+			"date": "2026-07-14",
+			"highlights": [
+				"New joystick tuning bench (for setup only, hidden by default): dial the per-axis feel of manual control against the real aircraft, with a live curve preview, then copy the values out to lock them in.",
+				"Tuning covers softening around centre per axis (pitch/roll, yaw, throttle), a controller deadzone, safety caps on how far pitch/roll and yaw can push, and the throttle hover point. Throttle always keeps full range so arming and full climb are never blocked.",
+				"The Esc key now shows a clear on-screen banner when it cuts the joystick and switches the aircraft to Loiter, so the kill switch is unmistakable.",
+				"The video overlay stays fully solid at all times and no longer fades when the link looks weak.",
+				"The link indicator was replaced with an honest telemetry-rate readout, so what you see reflects the real message rate instead of a made-up signal bar."
+			]
+		},
+		{
+			"version": "0.14.0",
+			"date": "2026-07-14",
+			"highlights": [
+				"Connection status is steady on a patchy link: it no longer flickers to Disconnected between telemetry bursts, and it now correctly shows Disconnected after a real 5 second silence (before, a total dropout could leave it stuck on Connected).",
+				"Camera pitch works as a hold to move control that speeds up the longer you hold, with a direction indicator that warms in colour as it slews faster.",
+				"Video overlay tidy up: removed the overlay opacity and logo options, altitude tape now labels every metre and reads to one decimal, and the video panels are properly solid (the map no longer shows through).",
+				"Each gateway now shows its own Mission Planner port on the gateway picker and network diagram, so you point Mission Planner at the right port when you switch aircraft.",
+				"Camera pan and tilt now follows the selected gateway, so it can no longer act on the wrong aircraft, and the setup wizard field is clarified as the Bridge video ID."
+			]
+		},
+		{
+			"version": "0.13.0",
+			"date": "2026-07-13",
+			"highlights": [
+				"Fly here: right-click the map to send the aircraft to that point. A confirm popup (with distance and bearing) appears anchored to the spot, and nothing is commanded until you press Go. It switches to GUIDED automatically if needed and holds the current altitude.",
+				"The target shows as a marker on the map and on the video overlays (like the home marker), and stays until the drone arrives, you cancel, or the aircraft leaves GUIDED.",
+				"GUIDED is now available in the flight-modes list on the Control panel.",
+				"The simulator now flies to a fly-here target and reports it, so the whole flow can be rehearsed without a real aircraft."
+			]
+		},
+		{
+			"version": "0.12.0",
+			"date": "2026-07-13",
+			"highlights": [
+				"The video overlay now shows where home is: a home marker (matching the map) on the compass ring and heading strip, an arrow toward home on the frame edge, and a HOME distance readout. Toggle it per stream, it appears once the aircraft has a GPS fix and a home point.",
+				"New vertical altitude tape on the left of the video, like a cockpit altimeter, that scrolls as you climb or descend and turns amber then red when altitude gets low or near the ceiling.",
+				"Altitude readouts now change colour with severity, matching the low-altitude alarm.",
+				"The stream name moved to the bottom centre with the AIR6 mark, freeing the corner for the flight readouts.",
+				"Tidied the Streams overlay setup: removed the now-unused HUD corner option and restyled the opacity slider to match the rest of the app."
+			]
+		},
+		{
+			"version": "0.11.0",
+			"date": "2026-07-13",
+			"highlights": [
+				"New cockpit overlay for the video feeds: live flight HUD (power, link and GPS, altitude and speed), a central nav orb showing attitude and heading, plus framing aids, a stream label and the AIR6 mark. Set it up per stream from the Streams panel and it saves with your layout.",
+				"On-screen alarm banners warn about steep bank or pitch, low battery, low or high altitude, and weak GPS or link, and stay silent when all is well.",
+				"Optional joystick visualisers on the video overlay mirror the Control panel sticks.",
+				"Safety: while the joystick is active the Control panel can no longer be hidden by accident (deactivate the stick first); leaving the tab or closing the window still hands control back as before.",
+				"Video telemetry updates more smoothly (attitude and heading stream faster), and the camera gimbal reads cleanly across its full range.",
+				"Camera pitch keep-alive no longer floods the server log."
+			]
+		},
+		{
+			"version": "0.10.0",
+			"date": "2026-07-11",
+			"highlights": [
+				"Re-running the setup wizard now pre-fills your current settings (secrets shown masked), so you only change what you need.",
+				"Control sensitivity now shapes the response, not the reach: full stick always gives full authority at any setting, so you can always arm with throttle fully down.",
+				"Layouts remember whether the video panels are shown, and panels tile cleanly to the bottom of the screen (the leftover becomes a thin black bar).",
+				"Layout switching feedback: the active layout button pulses for a moment, holding a number key opens that layout options (like a long press), and the grid dots stay visible on satellite and street maps.",
+				"The desktop app has a proper AIR6 icon.",
+				"Stopping the simulator no longer wedges Change Gateway."
+			]
+		},
+		{
+			"version": "0.9.8",
+			"date": "2026-07-09",
+			"highlights": [
+				"Start Simulator works in the installed desktop app again (the simulator was failing to launch silently)."
+			]
+		},
+		{
+			"version": "0.9.7",
+			"date": "2026-07-09",
+			"highlights": [
+				"The + and - keys zoom the map again (Leaflet was quietly capturing them). They now work across keyboard layouts."
+			]
+		},
+		{
+			"version": "0.9.6",
+			"date": "2026-07-09",
+			"highlights": [
+				"Map zoom stays smooth while the drone is moving: it no longer jumps the map after a zoom in follow mode, rapid zoom presses no longer get dropped, and a fast scroll steps cleanly instead of one big dark jump."
+			]
+		},
+		{
+			"version": "0.9.5",
+			"date": "2026-07-09",
+			"highlights": [
+				"Map zoom is smooth and stays centred on the drone in follow mode, with no grey flashing (it no longer drops the animation when the system has reduced motion on).",
+				"Zoom from the keyboard with the . (in) and , (out) keys, which work on every keyboard layout (the + and - keys still work where the layout provides them)."
+			]
+		},
+		{
+			"version": "0.9.4",
+			"date": "2026-07-09",
+			"highlights": [
+				"The Control panel now keeps the height you drag it to; recalling a layout no longer snaps it back to fit its content."
+			]
+		},
+		{
+			"version": "0.9.3",
+			"date": "2026-07-09",
+			"highlights": [
+				"The desktop app now opens at 80% zoom so more fits on screen, with the map staying crisp. Adjust it live with Ctrl and + or -, Ctrl+0 resets, and the level is remembered per machine."
+			]
+		},
+		{
+			"version": "0.9.2",
+			"date": "2026-07-09",
+			"highlights": [
+				"Map zoom rebuilt: + / - and scroll now share one smooth animated zoom that stays centred on the drone while following, without the grey flashing on scroll.",
+				"The three field layouts (Call & Telem, Control, Mission) ship as the built-in defaults on a fresh install."
+			]
+		},
+		{
+			"version": "0.9.1",
+			"date": "2026-07-09",
+			"highlights": [
+				"New Changelog tab on the Admin page showing what changed in each release.",
+				"Reproducible builds: the dependency lockfile is regenerated on Node 22 and the npm version is pinned, so installs behave the same on every machine.",
+				"CI build actions updated to clear the Node runtime deprecation warnings."
+			]
+		},
+		{
+			"version": "0.9.0",
+			"date": "2026-07-09",
+			"highlights": [
+				"Camera pitch control on RC channel 8: D-pad or the [ and ] keys tilt the gimbal, \\ re-centres. Calibrated to the airframe and shown in degrees as a CAM axis next to roll/pitch/yaw.",
+				"Control panel resizes both ways now: drag it wider or taller, and a taller panel spreads its sections out instead of staying compressed. Its layout is more compact to fit a screen quadrant.",
+				"Follow-mode offset is restored correctly when you recall a saved layout (the drone no longer snaps back to centre).",
+				"UI scale is saved per layout, so recalling a layout restores its zoom level.",
+				"Toolchain updated to Node 22, Electron 43 and electron-builder 26 (clears all install warnings and vulnerabilities)."
+			]
+		},
+		{
+			"version": "0.8.0",
+			"date": "2026-07-09",
+			"highlights": [
+				"Every panel snaps to a shared grid so layouts tile cleanly, like Lego. The Snap toggle is gone; snapping is always on, with an optional grid overlay.",
+				"Control sensitivity: a single 0-100% scale on the joystick and keyboard output, set once at setup.",
+				"Joystick expo curve and a keyboard-stick ramp for a gentler, more controllable stick feel.",
+				"The Graphs panels hug their content, removing the dead space that used to sit below the charts.",
+				"The Layout panel now stays on top, and clicking a panel reliably brings it to the front."
+			]
+		},
+		{
+			"version": "0.7.0",
+			"date": "2026-07-07",
+			"highlights": [
+				"Gateway picker: pick which aircraft/tunnel this session talks to, with live status dots and camera counts. Each gateway gets its own isolated telemetry receiver so two aircraft can never mix.",
+				"Video streams and layouts follow the selected gateway.",
+				"Map polish: smooth fractional zoom, no grey tile bands, zoom pivots on the drone while following.",
+				"Keyboard works as a backup joystick when no controller is connected; + and - zoom the map.",
+				"A malformed MAVLink packet can no longer crash the process."
+			]
+		},
+		{
+			"version": "0.6.0",
+			"date": "2026-07-06",
+			"highlights": [
+				"Manual control release: every joystick-stop path hands RC control straight back to the field pilot, matching Mission Planner behaviour, with a confirmation note.",
+				"Hold-key shortcuts for arm/disarm and flight modes, with keycaps shown on the buttons.",
+				"Mission read shows estimated flight time, per-leg command markers, and speed changes.",
+				"Richer 3D drone visual: rotor rings tint toward red as motors near their limit, prop spin follows throttle.",
+				"Graphs panel (renamed from Statistics) and a more realistic battery model."
+			]
+		},
+		{
+			"version": "0.5.0",
+			"date": "2026-07-05",
+			"highlights": [
+				"Joystick hardening: MANUAL_CONTROL at 20 Hz with a watchdog so control input can never be lost silently.",
+				"Gamepad buttons and D-pad with a whitelisted config mapping; Siyi A2 camera pitch on the D-pad.",
+				"Single joystick master bar with state-coloured stick dots and a presentation (joystick-only) mode.",
+				"Steadier map: the drone marker no longer shakes at low zoom or in follow mode."
+			]
+		},
+		{
+			"version": "0.4.0",
+			"date": "2026-07-05",
+			"highlights": [
+				"One flyable simulator shared by the app and the Pi, with accurate arm/disarm and heading rules.",
+				"Command failure feedback and clearer arm-panel state.",
+				"Network diagram: all telemetry edges render bidirectional and commands flow drone-ward on every hop."
+			]
+		},
+		{
+			"version": "0.3.0",
+			"date": "2026-07-05",
+			"highlights": [
+				"Network flow diagram with zones, node cards, live status, and per-node detail popovers.",
+				"Setup wizard and a single System tab, including a bridgeconfig.json generator.",
+				"Sticky app header that survives narrow widths."
+			]
+		},
+		{
+			"version": "0.1.0",
+			"date": "2026-06-14",
+			"highlights": [
+				"First working ground station: SvelteKit dashboard with bundled MAVLink Router integration.",
+				"Live telemetry over WebSocket, a map with a smooth drone marker, and multi-stream video panels.",
+				"Draggable, resizable panels; admin configuration, packet stats, and a live log viewer."
+			]
+		}
+	]
+}
