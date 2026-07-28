@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.37.0",
+			"date": "2026-07-24",
+			"highlights": [
+				"New in-app User Manual: a brief guide with screenshots, on its own Admin tab, covering the dashboard panels and every Admin action (network setup, the simulator, missions, joystick, hangar, logs and updates).",
+				"The video source now always matches your choice: picking \"Synthetic world\" or \"Video\" shows exactly that, and the recorded clip no longer gets stuck or plays back distorted.",
+				"Graphs can now show as many charts as you want (the old limit of five is gone)."
+			]
+		},
+		{
 			"version": "0.36.0",
 			"date": "2026-07-24",
 			"highlights": [
