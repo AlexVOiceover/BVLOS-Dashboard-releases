@@ -2,6 +2,14 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.38.0",
+			"date": "2026-07-24",
+			"highlights": [
+				"Geofence altitude: you can now type an exact floor or ceiling straight into the pill, as well as dragging the handles.",
+				"The altitude scale now tops out at 150 m (the legal 120 m limit plus headroom), and the floor and ceiling labels no longer overlap when they are close together."
+			]
+		},
+		{
 			"version": "0.37.0",
 			"date": "2026-07-24",
 			"highlights": [
