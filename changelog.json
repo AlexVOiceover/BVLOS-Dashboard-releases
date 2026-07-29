@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.39.0",
+			"date": "2026-07-24",
+			"highlights": [
+				"The desktop app now runs without the operating system title bar, for a cleaner full-screen look. Drag the black header to move the window.",
+				"New window buttons at the top-right: minimise, a fullscreen toggle (for events and projectors), and close. Close asks to confirm first.",
+				"Keyboard shortcuts as a reliable backup: F11 toggles fullscreen and Ctrl+Q quits, so you can never get stuck."
+			]
+		},
+		{
 			"version": "0.38.0",
 			"date": "2026-07-24",
 			"highlights": [
