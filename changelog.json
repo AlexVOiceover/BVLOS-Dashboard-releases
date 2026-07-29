@@ -2,6 +2,16 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.40.0",
+			"date": "2026-07-29",
+			"highlights": [
+				"The thin black bar that could appear floating inside the map is gone. On screens where it is needed, its top half now blends into a slightly taller header (content stays vertically centred) and only a small strip remains at the very bottom.",
+				"Dark map fix: on the dark map style, panel text no longer looks like it is floating. Field rows, labels and panel headers get a subtle frosted backing so they stay readable in Transparency mode.",
+				"The Layout panel control \"Focus Mode\" is now called \"Transparency\", which better describes what it does.",
+				"The video call panel is enabled by default again, so it shows up wherever a call service key is configured."
+			]
+		},
+		{
 			"version": "0.39.0",
 			"date": "2026-07-24",
 			"highlights": [
