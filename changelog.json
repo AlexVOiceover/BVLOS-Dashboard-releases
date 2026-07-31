@@ -2,6 +2,17 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.41.0",
+			"date": "2026-07-31",
+			"highlights": [
+				"Geofence recovery: when a breach ends and the aircraft is back inside, a clear \"breach cleared, safe to switch flight mode\" message appears, so you know when it is safe to take control back (the flight controller does not do it for you).",
+				"Approaching the geofence now lights up the nearby wall as a soft red glow around the aircraft that grows as you close in, from further out, and behaves correctly at corners.",
+				"The Control panel is cleaner for flying: section headers replaced with thin dividers, and arm or disarm feedback shows on the button you pressed instead of a floating note.",
+				"Layouts now remember each panel position and size (including hidden panels) and the map zoom, so unhiding a panel or loading a layout restores exactly what you had.",
+				"Tidy-ups: the mission panel divider reaches the edges and drops the point count, the graphs lose the floating \"60s\" tag, the geofence panel drops repeated status text, and the simulator video is now labelled \"Synthetic world\" to match the setup page."
+			]
+		},
+		{
 			"version": "0.40.0",
 			"date": "2026-07-29",
 			"highlights": [
