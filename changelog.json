@@ -2,6 +2,14 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.42.0",
+			"date": "2026-07-31",
+			"highlights": [
+				"A new geofence now starts with a 5 m floor and a 50 m ceiling, a more typical operating window (you can still drag the handles to change it). Existing saved fences keep their own limits.",
+				"The simulator now takes off hovering at 10 m instead of 35 m."
+			]
+		},
+		{
 			"version": "0.41.0",
 			"date": "2026-07-31",
 			"highlights": [
