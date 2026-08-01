@@ -2,6 +2,18 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.44.0",
+			"date": "2026-08-01",
+			"highlights": [
+				"Missions with spline waypoints now draw and fly as smooth curves, matching how they look in Mission Planner, instead of straight lines.",
+				"The simulator now points the nose at a Region of Interest (DO_SET_ROI): the aircraft faces the target while the ROI is active. The map marks the ROI point and lights it up, with a subtle sight line from the drone to the target while it is facing it.",
+				"The looping simulator mission no longer detours back to the launch point after the last waypoint, and it tracks tight waypoints closely instead of cutting corners.",
+				"The recorded mission video now starts only when the drone reaches the first waypoint (showing an \"approaching first waypoint\" message during takeoff), and stops when the mission stops, so the footage stays in sync and never plays while idle.",
+				"After a restart, the video panel now shows the currently active mission's video instead of a previous one.",
+				"Activating a mission in the library now correctly leaves the aircraft hovering in LOITER (switch to AUTO to fly it), and the confirmation message says so."
+			]
+		},
+		{
 			"version": "0.43.0",
 			"date": "2026-08-01",
 			"highlights": [
