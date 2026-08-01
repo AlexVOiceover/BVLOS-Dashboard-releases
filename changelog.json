@@ -2,6 +2,17 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.43.0",
+			"date": "2026-08-01",
+			"highlights": [
+				"A simulator mission can now carry TWO recorded videos. In Video mode the simulator offers a second stream when a mission has a Video 2, and you pick which streams to show in the Streams panel, just like with a real bridge.",
+				"The mission library shows Video 1 and Video 2 buttons that light up green when a video is set, with a play button to preview each clip before using it (and a second video field when creating a set).",
+				"Recorded video now loops in step with the looping simulator mission instead of freezing on the last frame, so the footage stays in sync lap after lap.",
+				"Real Mission Planner missions now import without error (a takeoff or return-to-launch item no longer trips a \"no position\" message).",
+				"Pasting a Windows path to a video (the \\\\wsl.localhost\\... form) now works when the app runs under WSL."
+			]
+		},
+		{
 			"version": "0.42.0",
 			"date": "2026-07-31",
 			"highlights": [
