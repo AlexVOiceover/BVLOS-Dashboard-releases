@@ -2,6 +2,16 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.48.0",
+			"date": "2026-08-04",
+			"highlights": [
+				"Much smaller installer: removed a large machine-learning library that was being shipped but never used at install time.",
+				"Downloading an example mission now shows a real percentage and size (for example \"45% (255 MB / 566 MB)\") as it downloads.",
+				"The download list now refreshes its \"Installed\" marks when you open it, so a mission you just deleted no longer shows as installed.",
+				"The staff Sync and Export tools can now be unlocked on the installed app (they were only reachable in development before)."
+			]
+		},
+		{
 			"version": "0.47.1",
 			"date": "2026-08-04",
 			"highlights": [
