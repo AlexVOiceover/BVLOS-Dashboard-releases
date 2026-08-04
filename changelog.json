@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.48.1",
+			"date": "2026-08-04",
+			"highlights": [
+				"Smaller installer and download: removed duplicated libraries that were being packaged twice, so the app is lighter to install and update with no change to features."
+			]
+		},
+		{
 			"version": "0.48.0",
 			"date": "2026-08-04",
 			"highlights": [
