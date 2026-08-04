@@ -2,6 +2,30 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.46.0",
+			"date": "2026-08-03",
+			"highlights": [
+				"Mission videos now stay perfectly in step with the flight, with no rendering step: you mark each waypoint against the footage, and the drone is paced to the video so the raw clip plays at 1x and never drifts, lap after lap.",
+				"The loop is now seamless: a smooth crossfade blends the end of the clip back into the start, and the map and instruments hold steady through the transition instead of twitching.",
+				"The sync editor shows each leg's speed on its waypoint row, adds left/right arrows to nudge a mark by 0.2s, and marks the waypoints on the video progress bar.",
+				"A second camera (Video 2) is now set up as a simple start/end window matched to the first video's length, so both angles play together without re-syncing every waypoint.",
+				"On the map the drone icon and its trail follow the curved (spline) route instead of cutting straight across.",
+				"Download ready-made example missions from a link (one zip per mission, pick which to add), and Export packages a synced mission into a shareable bundle."
+			]
+		},
+		{
+			"version": "0.45.0",
+			"date": "2026-08-02",
+			"highlights": [
+				"New video sync tool on the Admin page: play a mission video next to the map and waypoint list, mark where the drone is at each waypoint, and the recorded footage then follows the flight.",
+				"Once synced, render the video so it plays back perfectly smooth and time-matched to the mission (with a progress bar while it renders), replacing the earlier jittery live syncing.",
+				"The mission video now plays only while flying in AUTO, waits for the first waypoint before starting, loops seamlessly, and re-aligns itself if you pause the mission and resume.",
+				"Both recorded videos (Video 1 and Video 2) get the same smooth synced playback.",
+				"The sync editor now uses most of the screen for a much larger video and map.",
+				"The dashboard remembers your chosen panel layout when you switch to Admin and back."
+			]
+		},
+		{
 			"version": "0.44.0",
 			"date": "2026-08-01",
 			"highlights": [
