@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.49.1",
+			"date": "2026-08-04",
+			"highlights": [
+				"Fixed the panel buttons in the top header not responding to clicks when the window was not maximised."
+			]
+		},
+		{
 			"version": "0.49.0",
 			"date": "2026-08-04",
 			"highlights": [
