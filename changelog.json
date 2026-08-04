@@ -2,6 +2,14 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.47.0",
+			"date": "2026-08-04",
+			"highlights": [
+				"Downloading an example mission now shows live progress: a bar and a size counter (for example \"324 MB / 1.0 GB\"), so a large download no longer looks frozen.",
+				"The quit confirmation is now a styled in-app dialog with the correct \"Flight Monitor\" name, replacing the plain system pop-up."
+			]
+		},
+		{
 			"version": "0.46.0",
 			"date": "2026-08-03",
 			"highlights": [
