@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.49.0",
+			"date": "2026-08-04",
+			"highlights": [
+				"The setup wizard now has an optional step to download the example missions during first-run setup, so a new station can start with something to fly. If setup is re-run later, missions you already have are shown as installed and are not downloaded again.",
+				"Redesigned the saved missions list on the Admin page: each set is now a clearer two-tier card with the Activate button aligned across rows and the actions grouped (videos, waypoints and export, rename and delete).",
+				"The buttons that link a file (set a video, choose the waypoints) now share one consistent look, so it is clear at a glance which actions upload something."
+			]
+		},
+		{
 			"version": "0.48.1",
 			"date": "2026-08-04",
 			"highlights": [
