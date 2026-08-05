@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.50.0",
+			"date": "2026-08-05",
+			"highlights": [
+				"The whole look of the app (colours, fonts, header, panels, buttons, text fields) can now be re-skinned from a single theme file, so a client build is a quick, low-risk change.",
+				"Fixed the \"no video\" camera icon showing on top of the synthetic flight view; the synthetic world now stays clear.",
+				"Redesigned the Admin page tabs as clearer boxed tabs so the sections read as tabs at a glance."
+			]
+		},
+		{
 			"version": "0.49.1",
 			"date": "2026-08-04",
 			"highlights": [
