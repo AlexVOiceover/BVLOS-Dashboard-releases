@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.51.0",
+			"date": "2026-08-05",
+			"highlights": [
+				"Object detection now shows a small live readout (video FPS, detections per second) so you can see its effect on the feed.",
+				"Fixed the Geofence panel showing an empty gap and a needless scrollbar at the bottom.",
+				"Expanded the in-app manual: joystick and keyboard controls, the geofence breach behaviour, mission details, and the simulator video and example missions, with updated screenshots."
+			]
+		},
+		{
 			"version": "0.50.0",
 			"date": "2026-08-05",
 			"highlights": [
