@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.52.0",
+			"date": "2026-08-05",
+			"highlights": [
+				"Rebuilt the dashboard grid so panels and the video tile cleanly with no gaps and line up on a single shared grid.",
+				"The layout now stays neat across very different screens, from a 4:3 laptop to a widescreen TV or projector, with tidy black edges filling any leftover space.",
+				"Your saved layouts carry over automatically and snap onto the new grid; no re-setup needed."
+			]
+		},
+		{
 			"version": "0.51.0",
 			"date": "2026-08-05",
 			"highlights": [
