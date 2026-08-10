@@ -2,6 +2,16 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.52.1",
+			"date": "2026-08-11",
+			"highlights": [
+				"Mission video now picks back up in sync after you loiter or turn on object detection mid-flight: it waits for the drone to reach the next waypoint, then resumes the footage from exactly that point.",
+				"Fixed a video drift where the footage jumped ahead of the drone after resuming from loiter.",
+				"The map now shows the drone flying freely in LOITER instead of appearing stuck to the mission line.",
+				"The sync editor and the live dashboard now use the same waypoint numbers, so a waypoint on the map matches the same waypoint in the sync list."
+			]
+		},
+		{
 			"version": "0.52.0",
 			"date": "2026-08-05",
 			"highlights": [
