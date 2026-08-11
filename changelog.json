@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.53.0",
+			"date": "2026-08-11",
+			"highlights": [
+				"The dashboard grid now keeps a fixed number of rows on every screen, so panels hold their vertical proportions from a laptop to a wide TV (columns fill the extra width).",
+				"Panels now always snap flush to the grid lines. A panel can no longer come back slightly misaligned after resizing or reloading.",
+				"Panels and the video tile share the exact same grid cell, so they line up with no gaps."
+			]
+		},
+		{
 			"version": "0.52.1",
 			"date": "2026-08-11",
 			"highlights": [
