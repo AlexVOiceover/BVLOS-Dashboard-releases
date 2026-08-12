@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.54.2",
+			"date": "2026-08-12",
+			"highlights": [
+				"Fixed the video Call panel disappearing: once a Daily API key is set up, the Call panel always shows, even if calls were skipped on this machine before.",
+				"If video calling is not set up, the dashboard now shows a short \"not set up\" note where the Call panel would be, with a link to Setup, instead of the panel silently vanishing.",
+				"Made per-machine settings truly local so one machine setup can no longer be shipped as everyone default."
+			]
+		},
+		{
 			"version": "0.54.1",
 			"date": "2026-08-12",
 			"highlights": [
