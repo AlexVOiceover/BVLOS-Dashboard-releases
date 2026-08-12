@@ -2,6 +2,16 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.54.0",
+			"date": "2026-08-12",
+			"highlights": [
+				"New staff mission editor: edit a mission's waypoints directly, one row at a time, with a dropdown that names each command (for example DO_CHANGE_SPEED) so you can see and change what a row does.",
+				"Editing a speed value on a video-synced mission now keeps the sync. Only changing the actual route (moving, adding, or removing a waypoint) clears it.",
+				"Edits flow straight into the exported mission bundle, no extra steps.",
+				"Fixed the sync editor timeline markers so each waypoint tick now lines up exactly with the playhead."
+			]
+		},
+		{
 			"version": "0.53.0",
 			"date": "2026-08-11",
 			"highlights": [
