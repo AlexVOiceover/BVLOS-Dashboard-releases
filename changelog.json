@@ -2,6 +2,14 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.54.3",
+			"date": "2026-08-12",
+			"highlights": [
+				"The mission editor is easier to read: the waypoint number is now the first column, rows have clearer striping, and the technical housekeeping columns are hidden by default (with checkboxes to show them if needed).",
+				"The command dropdown and value columns are sized so full command names and coordinates are readable."
+			]
+		},
+		{
 			"version": "0.54.2",
 			"date": "2026-08-12",
 			"highlights": [
