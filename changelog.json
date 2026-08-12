@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.54.1",
+			"date": "2026-08-12",
+			"highlights": [
+				"Panels now line up consistently: the gap from each panel header to its first item is the same across all panels, and spacing is more uniform throughout.",
+				"The Geofence panel body now matches the other panels in focus mode, and its status label is styled to match.",
+				"In the mission editor, the command dropdown is wider so full command names are readable."
+			]
+		},
+		{
 			"version": "0.54.0",
 			"date": "2026-08-12",
 			"highlights": [
