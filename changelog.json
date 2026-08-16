@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.55.0",
+			"date": "2026-08-17",
+			"highlights": [
+				"A mission with a video now always plays that video: the recorded footage wins over the synthetic world, so a leftover \"synthetic\" setting can no longer hide your mission video.",
+				"The Mission panel summary (length, time, altitude, items) is more compact, freeing up space for the waypoint list.",
+				"Under the hood: added a large automated test suite and a pre-merge check so releases are more reliable, plus a round of clean-up and consolidation. No change to how the app looks or behaves."
+			]
+		},
+		{
 			"version": "0.54.3",
 			"date": "2026-08-12",
 			"highlights": [
