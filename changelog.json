@@ -2,6 +2,17 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.56.0",
+			"date": "2026-08-20",
+			"highlights": [
+				"New Sim Control panel: when the simulator is the source, a compact panel lets you switch the active mission and Start, Stop, or Restart it from the beginning, without going into Admin. It stays hidden when a real gateway is connected.",
+				"The app is now called Airborne Flight Monitor (the header, window title, and installer name were simplified). Your settings, gateways, and layouts carry over automatically.",
+				"Mission videos now switch correctly when you change the active mission, instead of keeping the previous mission's clip.",
+				"A mission with one video no longer shows a leftover second video from a previous mission.",
+				"Switching missions now moves the drone marker instantly to the new location instead of drawing a false flight trail across the map."
+			]
+		},
+		{
 			"version": "0.55.0",
 			"date": "2026-08-17",
 			"highlights": [
