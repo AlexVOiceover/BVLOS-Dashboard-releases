@@ -2,6 +2,18 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.56.1",
+			"date": "2026-08-28",
+			"highlights": [
+				"Downloading example missions now shows real progress: a live percentage, megabytes downloaded, and a progress bar per mission, instead of a stuck \"starting...\" message.",
+				"Added a Cancel button while downloading. Cancelling (or closing the window) stops the download and cleans up the partial file, and any missions that already finished are kept.",
+				"Interrupted downloads no longer leave junk behind. A download that fails or is cancelled never leaves a half-finished mission, and leftover files are swept away automatically on the next start.",
+				"Re-downloading a mission you already have now clearly says \"skipped\" unless you tick \"Replace existing\", instead of appearing to hang.",
+				"Fixed a crash that could take the app down when a download was cancelled.",
+				"The header wordmark is now \"Airborne FM\"."
+			]
+		},
+		{
 			"version": "0.56.0",
 			"date": "2026-08-20",
 			"highlights": [
