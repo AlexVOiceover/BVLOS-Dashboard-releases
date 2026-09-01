@@ -2,6 +2,20 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.57.0",
+			"date": "2026-09-01",
+			"highlights": [
+				"Mission video and the map drone now stay locked together: the drone on the map is driven directly by the video time, so it can no longer drift ahead of or behind the footage.",
+				"The map jumps to a mission when you pick it in Sim Control, and the Sim Control shortcuts now live at the top of the Mission panel (the separate panel is gone).",
+				"The drone callout now shows the real flown altitude and speed from the mission during synced playback, instead of the simulator's made-up values.",
+				"Import DJI missions directly: .kmz and .kml files are accepted (upload and re-link), and pasted video paths with Windows \"Copy as path\" quotes are cleaned automatically.",
+				"New \"Close loop\" button snaps the last waypoint onto the first so a looping mission closes exactly, with no odd fly-back at the end of each lap.",
+				"The sync editor is clearer: click a row to select it, out-of-order or clamped waypoint times are flagged, and closing with unsaved marks now warns you first.",
+				"Looping missions are smoother and more reliable: fixed the drone getting stuck, flying backwards, jumping to waypoint 1 on the first lap, and briefly facing the wrong way at the final waypoint.",
+				"The current waypoint highlight now tracks the video exactly on both the map and the mission list, with no off-by-one."
+			]
+		},
+		{
 			"version": "0.56.1",
 			"date": "2026-08-28",
 			"highlights": [
