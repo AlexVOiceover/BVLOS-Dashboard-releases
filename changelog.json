@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.59.1",
+			"date": "2026-09-02",
+			"highlights": [
+				"Export now explains the real reason it is blocked. If a mission still has a home / launch point, it says so and points you to the sync editor, instead of wrongly telling you to sync videos that are already synced."
+			]
+		},
+		{
 			"version": "0.59.0",
 			"date": "2026-09-02",
 			"highlights": [
