@@ -2,6 +2,19 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.58.0",
+			"date": "2026-09-02",
+			"highlights": [
+				"Syncing a video is much faster: press T to mark the next unmarked waypoint at the current frame, so a first pass is one key down the list.",
+				"Smarter \"Pre-fill estimate\": mark just the first and last waypoint and it fills the rest at a constant speed (spacing each by real distance). If you already marked some in between, it asks whether to keep or clear them.",
+				"A large, smooth timecode now shows on the video itself (top centre) while syncing, so the exact clip time is easy to read.",
+				"The sync map no longer resets its zoom and position when you delete a waypoint. It only re-frames when you open a different mission.",
+				"New \"Close loop\" button snaps the last waypoint onto the first so a looping mission closes exactly, with a clean single transition each lap instead of odd jumps or a double restart.",
+				"The waypoint tape and the current-waypoint highlight on the video now change in step with the drone on the map, instead of running ahead.",
+				"Looping playback is smoother and more reliable overall: fixed the drone stalling at the start, jumping back mid-lap on the first loop, and the video restarting twice."
+			]
+		},
+		{
 			"version": "0.57.0",
 			"date": "2026-09-01",
 			"highlights": [
