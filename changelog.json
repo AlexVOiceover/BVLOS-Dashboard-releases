@@ -2,6 +2,18 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.59.0",
+			"date": "2026-09-02",
+			"highlights": [
+				"Exporting a mission bundle now shows a real progress bar and percentage as it works, instead of an opaque \"Bundling\" wait.",
+				"You can Abort an export in progress. Cancelling cleans up after itself, so no half-written files are left behind.",
+				"Each mission shows an \"Exported\" badge once its bundle is made (and flags it stale if you edit the mission afterwards), so it is clear what will be included when you generate the index.",
+				"New \"Open exports folder\" button (desktop app) opens the folder where the bundle zips are saved, so there is no need to hunt for them.",
+				"The mission editor has a new \"Add waypoint\" button to append a waypoint by hand.",
+				"Large videos bundle noticeably faster."
+			]
+		},
+		{
 			"version": "0.58.0",
 			"date": "2026-09-02",
 			"highlights": [
