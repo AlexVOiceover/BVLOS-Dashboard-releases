@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.61.1",
+			"date": "2026-09-03",
+			"highlights": [
+				"When a mission fails to download or install, the window now stays open so you can read the reason on that mission, instead of closing before you see it."
+			]
+		},
+		{
 			"version": "0.61.0",
 			"date": "2026-09-03",
 			"highlights": [
