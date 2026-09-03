@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.60.1",
+			"date": "2026-09-03",
+			"highlights": [
+				"No more black console windows flashing during an update install on Windows. The firewall setup now runs silently."
+			]
+		},
+		{
 			"version": "0.60.0",
 			"date": "2026-09-03",
 			"highlights": [
