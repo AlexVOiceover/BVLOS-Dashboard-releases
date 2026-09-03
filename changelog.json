@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.60.0",
+			"date": "2026-09-03",
+			"highlights": [
+				"You can now import missions saved from QGroundControl (.plan files), in addition to Mission Planner and DJI. The flyable route is brought in and used everywhere a mission is."
+			]
+		},
+		{
 			"version": "0.59.1",
 			"date": "2026-09-02",
 			"highlights": [
