@@ -2,6 +2,17 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.61.0",
+			"date": "2026-09-03",
+			"highlights": [
+				"Large example missions now download and install reliably. The unpack no longer runs out of memory on multi-GB missions, so the ones that failed right after reaching 100% now work.",
+				"If a download does fail, the reason is shown per mission instead of the window closing silently.",
+				"The download list now recognises a mission as already installed even if you added it by hand (matched by name), not only ones installed through this list.",
+				"Re-downloading a mission you already have replaces it cleanly instead of leaving a duplicate.",
+				"The generated missions index now uses the real mission names, not the lower-case slugs."
+			]
+		},
+		{
 			"version": "0.60.1",
 			"date": "2026-09-03",
 			"highlights": [
