@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.61.2",
+			"date": "2026-09-07",
+			"highlights": [
+				"Fixed missions failing to install with an \"unreadable\" error when the bundle was created on a different machine. They now install correctly."
+			]
+		},
+		{
 			"version": "0.61.1",
 			"date": "2026-09-03",
 			"highlights": [
