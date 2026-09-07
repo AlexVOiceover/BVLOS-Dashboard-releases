@@ -2,6 +2,18 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.65.0",
+			"date": "2026-09-07",
+			"highlights": [
+				"The app opens on the new Flight Deck: a live 3D Earth with real satellite imagery, the actual GPS constellation from live orbital data, the real day and night line, and your ground station marked at its location.",
+				"A boot sequence runs real checks as you arrive: network, gateway reachability, GNSS feed, weather at your location, mission library, software version with a whats-new expander, and an update check.",
+				"Pick your aircraft on the flight line: real gateways with live link status, or the Simulator with its flight plan. Committing dives the camera from orbit to where the flight will happen and opens the map right there.",
+				"The globe is interactive: drag to spin (it carries momentum), scroll to zoom out to the whole constellation, click a satellite for its real orbital data.",
+				"Selecting a real aircraft now requires an actual uplink: the wait is cancellable and a dead link shows an honest error instead of entering the dashboard anyway.",
+				"With no mission selected, the simulator now flies at YOUR location instead of the demo site, and demo waypoints no longer appear on the map or the synthetic view."
+			]
+		},
+		{
 			"version": "0.64.1",
 			"date": "2026-09-07",
 			"highlights": [
