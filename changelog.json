@@ -2,6 +2,14 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.67.0",
+			"date": "2026-09-07",
+			"highlights": [
+				"Downloading an update now shows a live counter on the Flight Deck boot terminal: megabytes received out of the total, then the restart notice when it is ready.",
+				"The Airborne Robotics signature on the Flight Deck is larger."
+			]
+		},
+		{
 			"version": "0.66.1",
 			"date": "2026-09-07",
 			"highlights": [
