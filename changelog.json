@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.61.4",
+			"date": "2026-09-07",
+			"highlights": [
+				"Fixed two-video missions installing with the second video missing (0 bytes). Bundles zipped on Windows are now unpacked correctly, so both videos arrive intact."
+			]
+		},
+		{
 			"version": "0.61.3",
 			"date": "2026-09-07",
 			"highlights": [
