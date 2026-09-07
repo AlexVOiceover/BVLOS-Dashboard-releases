@@ -2,6 +2,16 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.68.0",
+			"date": "2026-09-07",
+			"highlights": [
+				"The user manual is fully refreshed: it now covers the Flight Deck, the dashboard Sim Control, all accepted mission and video formats, and the current update flow, with new screenshots.",
+				"Staff-only chapters (route editing, video syncing, exporting, layout defaults) appear in the manual only after unlocking the staff passphrase, so operators see a clean guide.",
+				"The Simulator now has its own blue marker on the Flight Deck globe at your station; click it to centre, click again to launch, just like a gateway.",
+				"The globe zooms in about two steps further, up to the limit of the imagery."
+			]
+		},
+		{
 			"version": "0.67.0",
 			"date": "2026-09-07",
 			"highlights": [
