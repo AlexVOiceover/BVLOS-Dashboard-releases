@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.62.1",
+			"date": "2026-09-07",
+			"highlights": [
+				"The mission download window no longer closes if you click outside it or press Escape, so an in-progress download is not lost by accident. Use the Close button to close it."
+			]
+		},
+		{
 			"version": "0.62.0",
 			"date": "2026-09-07",
 			"highlights": [
