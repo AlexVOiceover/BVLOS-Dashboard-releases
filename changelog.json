@@ -2,6 +2,16 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.63.0",
+			"date": "2026-09-07",
+			"highlights": [
+				"Uploading a video now only accepts formats that play in the app (MP4, WebM, MOV, M4V). MKV and AVI are rejected with a clear message, so a mission never ships a video that will not play.",
+				"The accepted video formats are shown next to the video pickers when adding a mission.",
+				"Exported mission bundles now record which video is which inside the bundle, so downloads no longer depend on the video files being named a certain way.",
+				"Your existing missions and older downloaded bundles keep working unchanged."
+			]
+		},
+		{
 			"version": "0.62.1",
 			"date": "2026-09-07",
 			"highlights": [
