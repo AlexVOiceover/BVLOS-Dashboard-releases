@@ -2,6 +2,18 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.66.0",
+			"date": "2026-09-07",
+			"highlights": [
+				"Gateways now appear on the Flight Deck globe at their last-known location, recorded automatically whenever their aircraft reports. Green when the link is live, grey when quiet.",
+				"Click an aircraft on the globe or its card once to center the view on it; click again to launch it. The camera glides to the location with a smooth motion.",
+				"Gateway cards show their link state at a glance: a live uplink glows green with an animated drone, a quiet one goes grey and still.",
+				"Fixed a simulator crash that could kill telemetry after a large clock change (seen on the Raspberry Pi test rig).",
+				"Mission dropdowns are now sorted alphabetically.",
+				"The built-in stadium demo flight closes its loop with a final waypoint back over the launch point."
+			]
+		},
+		{
 			"version": "0.65.0",
 			"date": "2026-09-07",
 			"highlights": [
