@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.61.5",
+			"date": "2026-09-07",
+			"highlights": [
+				"Large mission downloads now finish reliably. If the connection drops partway (common with big files), the download resumes and continues instead of installing an incomplete mission."
+			]
+		},
+		{
 			"version": "0.61.4",
 			"date": "2026-09-07",
 			"highlights": [
