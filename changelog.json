@@ -2,6 +2,17 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.64.0",
+			"date": "2026-09-07",
+			"highlights": [
+				"All simulator controls now live on the dashboard. Start, stop, restart and the mission selector are in one place, so you no longer need the Admin page to run the simulator.",
+				"The mission list has a new None (synthetic world) option. Selecting it clears the mission from the map and disables the run controls until you pick a mission.",
+				"A terminal-style Recent commands panel shows the latest simulator activity, and it remembers whether you left it open or collapsed.",
+				"The drone to point-of-interest sight-line on the map is now brighter and easier to see.",
+				"Admin cleanup: the Simulator tab is renamed Missions, sections are reordered for a clearer layout, and the unused video-source toggle was removed."
+			]
+		},
+		{
 			"version": "0.63.0",
 			"date": "2026-09-07",
 			"highlights": [
