@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.61.3",
+			"date": "2026-09-07",
+			"highlights": [
+				"The Rename and Delete buttons on saved missions now work in the desktop app (they previously did nothing), using in-app dialogs that also confirm the result."
+			]
+		},
+		{
 			"version": "0.61.2",
 			"date": "2026-09-07",
 			"highlights": [
