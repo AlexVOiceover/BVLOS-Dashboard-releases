@@ -2,6 +2,14 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.62.0",
+			"date": "2026-09-07",
+			"highlights": [
+				"When a mission fails to download, the full reason now shows in the window instead of being cut off.",
+				"Added detailed logging of the whole mission download and install process, so any failure can be diagnosed from the app logs."
+			]
+		},
+		{
 			"version": "0.61.5",
 			"date": "2026-09-07",
 			"highlights": [
