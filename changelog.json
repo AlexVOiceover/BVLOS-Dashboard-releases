@@ -2,6 +2,14 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.66.1",
+			"date": "2026-09-07",
+			"highlights": [
+				"The Flight Deck carries the Airborne Robotics signature in the top corner, in the brand red with a soft glow.",
+				"Gateway markers on the globe stay finely sized as you zoom in, and live gateways now emit a radar ping so an active uplink is visible at a glance."
+			]
+		},
+		{
 			"version": "0.66.0",
 			"date": "2026-09-07",
 			"highlights": [
