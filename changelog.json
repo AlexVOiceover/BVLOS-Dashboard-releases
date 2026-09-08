@@ -2,6 +2,17 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.71.0",
+			"date": "2026-09-08",
+			"highlights": [
+				"Mission video sync is much tighter: the video now starts within a few frames of the flight instead of up to 1.5 seconds behind it.",
+				"Downloaded missions now carry their sync marks: the sync editor opens showing the actual sync, ready to inspect and adapt instead of starting empty. Missions exported from this version onward include them.",
+				"Launching the Simulator with a real gateway online no longer dives the globe to the wrong aircraft; it goes to the chosen flight plan.",
+				"The launch page brand is refreshed: Airborne Robotics / Flight Monitor sits top left in the brand style, the systems terminal moves top right, and only one brand text shows at a time with a gentle crossfade into the header.",
+				"The globe turns more calmly under the mouse and gets finer the closer you zoom."
+			]
+		},
+		{
 			"version": "0.70.0",
 			"date": "2026-09-08",
 			"highlights": [
