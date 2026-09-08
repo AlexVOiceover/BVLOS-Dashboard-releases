@@ -2,6 +2,16 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.72.0",
+			"date": "2026-09-08",
+			"highlights": [
+				"The sync editor is now almost full screen, with a much larger video and map, and the map no longer zooms out when the drone preview appears on the second mark.",
+				"The mission editor can delete rows: each row gets an X, and waypoint numbers renumber themselves automatically.",
+				"The Changelog tab shows live update download progress (MB downloaded / total) and offers a Restart to apply button as soon as the download lands.",
+				"On entering the dashboard, Start / Stop / Restart in Sim control stay disabled until the video panels finish loading, so a mission can no longer start unseen mid-boot."
+			]
+		},
+		{
 			"version": "0.71.1",
 			"date": "2026-09-08",
 			"highlights": [
