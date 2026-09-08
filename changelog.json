@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.69.0",
+			"date": "2026-09-08",
+			"highlights": [
+				"Picking a flight plan on the Flight Deck moves the Simulator to that plan: its blue marker flies along the globe to the new home and the camera glides there with it.",
+				"The Simulator marker now emits the same radar ping as a live gateway, in blue, and the SIMULATOR card carries a matching blue border so card and marker read as one aircraft.",
+				"Aircraft cards react properly to the mouse: the live card brightens on hover and a selected card no longer loses its highlighted border while pointed at."
+			]
+		},
+		{
 			"version": "0.68.0",
 			"date": "2026-09-07",
 			"highlights": [
