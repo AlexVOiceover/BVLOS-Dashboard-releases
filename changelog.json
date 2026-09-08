@@ -2,6 +2,14 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.73.0",
+			"date": "2026-09-08",
+			"highlights": [
+				"New sync editor shortcuts: Up / Down arrows jump the video 2 seconds, and 1 / 2 jump straight to the first / last marked waypoint.",
+				"On the launch globe, the second click that launches a selected aircraft now works even after the globe has drifted a little: clicking near the marker counts."
+			]
+		},
+		{
 			"version": "0.72.1",
 			"date": "2026-09-08",
 			"highlights": [
