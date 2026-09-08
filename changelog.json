@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.73.1",
+			"date": "2026-09-08",
+			"highlights": [
+				"On the launch page, the systems terminal and titles now always sit below the header, even on small windows or large display scaling where the header grows taller."
+			]
+		},
+		{
 			"version": "0.73.0",
 			"date": "2026-09-08",
 			"highlights": [
