@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.71.1",
+			"date": "2026-09-08",
+			"highlights": [
+				"On missions with a camera target (ROI), the map drone no longer detours toward the target point between waypoints: the video-driven position now follows only the flown route, so the drone and the waypoints line up again."
+			]
+		},
+		{
 			"version": "0.71.0",
 			"date": "2026-09-08",
 			"highlights": [
