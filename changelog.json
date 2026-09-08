@@ -2,6 +2,16 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.70.0",
+			"date": "2026-09-08",
+			"highlights": [
+				"Globe markers now carry name tags: each gateway shows its callsign and the Simulator reads SIMULATOR, in the marker color, staying readable at any zoom and never sinking behind the horizon.",
+				"The systems-check panel on the launch page keeps a fixed width, so the update download counter no longer makes it resize.",
+				"The Admin tabs are restyled to match the Flight Deck: a flat terminal rail with a red prompt on the active tab.",
+				"Admin polish: the notices under the Network Flow diagram are now clearly marked status banners with shorter text, section spacing around Videosoft Configuration is consistent, and hangar cards no longer jump on hover."
+			]
+		},
+		{
 			"version": "0.69.0",
 			"date": "2026-09-08",
 			"highlights": [
