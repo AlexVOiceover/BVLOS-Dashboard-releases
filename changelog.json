@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.74.0",
+			"date": "2026-09-09",
+			"highlights": [
+				"Clicking a satellite on the launch globe now pins its info card to the satellite itself: the card flies along with it on a leader line, fades in and out, and hides while the earth is in the way.",
+				"Header links are honest now: without a selected aircraft the Dashboard link is disabled, a Select aircraft link takes you back to the globe, and the Admin page is reachable without selecting anything first.",
+				"Launch page polish: bigger aircraft cards with more room at the bottom, the terminal and brand text sit further from the screen edges, and the FLIGHT DECK label is gone."
+			]
+		},
+		{
 			"version": "0.73.1",
 			"date": "2026-09-08",
 			"highlights": [
