@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.75.0",
+			"date": "2026-09-09",
+			"highlights": [
+				"Launching an aircraft now plays a GNSS lock-on: the camera pulls back to frame the whole constellation, subtle rays connect the aircraft to every satellite it can actually see, each satellite glows softly as its link lands, and the dive then plunges from orbit.",
+				"The globe palette is calmer: satellite trails are quiet grey instead of red and the satellite icons are neutral white, leaving green for lock-ons and red for the brand.",
+				"Satellites low at the sides of the screen are clickable again (the aircraft card row no longer swallows clicks beside the cards), and trails no longer draw across satellite icons."
+			]
+		},
+		{
 			"version": "0.74.0",
 			"date": "2026-09-09",
 			"highlights": [
