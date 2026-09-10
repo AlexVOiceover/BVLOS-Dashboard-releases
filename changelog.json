@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.75.2",
+			"date": "2026-09-10",
+			"highlights": [
+				"The AIR8 shows its full name, AIR8 Medium Lifter, in the Hangar and everywhere else the drone name appears."
+			]
+		},
+		{
 			"version": "0.75.1",
 			"date": "2026-09-09",
 			"highlights": [
