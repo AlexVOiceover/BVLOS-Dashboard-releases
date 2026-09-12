@@ -2,6 +2,18 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.76.0",
+			"date": "2026-09-12",
+			"highlights": [
+				"The Flight Deck globe got a full marker redesign: every aircraft, mission and site is a readable chip tied to its exact location by a short line and a dot.",
+				"Chips arrange themselves with game-like physics: they never overlap, lines never cross, and you can drag any chip aside; it springs calmly back when released.",
+				"Missions and gateways that share a location stack into one badged chip that opens into its members with a smooth expand and collapse animation.",
+				"Accepting an aircraft now fades everything else off the map, leaving just your chosen aircraft during launch.",
+				"The AIR6 Systems and Airborne Robotics sites are on the map; selecting one points the weather feed at that location.",
+				"The weather line follows the armed aircraft and updates with an airport-board letter flip; the page loads in with a choreographed reveal."
+			]
+		},
+		{
 			"version": "0.75.2",
 			"date": "2026-09-10",
 			"highlights": [
