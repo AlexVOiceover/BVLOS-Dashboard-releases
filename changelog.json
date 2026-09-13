@@ -2,6 +2,18 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.77.0",
+			"date": "2026-09-13",
+			"highlights": [
+				"A next generation globe engine is available for preview on the new Lab page: smoothly streamed satellite imagery, much deeper zoom and crisp real night lights, all working offline.",
+				"The launch globe zooms in far closer than before, with sharper NASA imagery and bright map-style lighting up close.",
+				"The dashboard now loads with a quick choreography: each panel fades onto its place while its header chip flashes.",
+				"Aircraft cards wear the same drone glyph as the map chips, with terminal-sized text and a red flight plan dropdown.",
+				"The header always offers Source for changing where you fly from; the connection pill is now purely informational.",
+				"Wind on the weather feed reads in meters per second."
+			]
+		},
+		{
 			"version": "0.76.0",
 			"date": "2026-09-12",
 			"highlights": [
