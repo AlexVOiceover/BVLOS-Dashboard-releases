@@ -2,6 +2,20 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.80.0",
+			"date": "2026-09-14",
+			"highlights": [
+				"Markers on the launch globe now come to rest instead of jostling each other. A marker pressed against a neighbour used to drum against it indefinitely, which was most obvious right after the page loaded.",
+				"Markers are drawn straight into position on load rather than drifting across the globe to get there, and their connecting lines now point at the middle of each label so they stop sliding around its edge.",
+				"Dragging a marker no longer shoves the others aside on the way: the rest of the layout holds still while you drag, and only reacts once you drop it.",
+				"A marker dragged out of an opened stack now eases back to a normal line length instead of hanging on a long line wherever it was left.",
+				"A marker boxed in by its neighbours can now slip past them to reach its place, so it no longer sits stranded on a stretched line.",
+				"Smooth wheel zoom on the globe, drag that slows as you zoom in, a subtle starfield, shorter aircraft cards, and no more idle auto-spin.",
+				"Choosing a mission reveals it on the globe, opening its stack if needed, and Dashboard in the header launches the armed aircraft.",
+				"The source and data-rate pill now sits midway between the panel buttons and the navigation, and late-day and night regions of the map are easier to read."
+			]
+		},
+		{
 			"version": "0.79.0",
 			"date": "2026-09-14",
 			"highlights": [
