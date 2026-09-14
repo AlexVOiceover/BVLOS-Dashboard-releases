@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.78.3",
+			"date": "2026-09-14",
+			"highlights": [
+				"A marker dragged out of an opened stack on the launch globe now stays where you drop it instead of springing back."
+			]
+		},
+		{
 			"version": "0.78.2",
 			"date": "2026-09-14",
 			"highlights": [
