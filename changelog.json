@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.78.0",
+			"date": "2026-09-14",
+			"highlights": [
+				"The launch globe is smooth again: the high detail imagery added in 0.77 caused freezes while zooming and could send the globe spinning after a drag, so it has been removed.",
+				"The app is much lighter: around 300 MB of experimental map imagery has been dropped from the installer.",
+				"The preview Lab page and its experimental globe engine are gone; the Flight Deck globe is the single map on the launch page again."
+			]
+		},
+		{
 			"version": "0.77.0",
 			"date": "2026-09-13",
 			"highlights": [
