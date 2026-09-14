@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.78.1",
+			"date": "2026-09-14",
+			"highlights": [
+				"The launch globe stops zooming where the imagery still looks sharp, instead of going soft at the closest range."
+			]
+		},
+		{
 			"version": "0.78.0",
 			"date": "2026-09-14",
 			"highlights": [
