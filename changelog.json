@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.78.2",
+			"date": "2026-09-14",
+			"highlights": [
+				"Markers from an opened stack on the launch globe can be dragged aside like any other, instead of being stuck on their ring."
+			]
+		},
+		{
 			"version": "0.78.1",
 			"date": "2026-09-14",
 			"highlights": [
