@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.80.1",
+			"date": "2026-09-14",
+			"highlights": [
+				"The launch globe now opens zoomed in on Europe rather than on the whole earth, so the aircraft and mission markers are readable straight away."
+			]
+		},
+		{
 			"version": "0.80.0",
 			"date": "2026-09-14",
 			"highlights": [
