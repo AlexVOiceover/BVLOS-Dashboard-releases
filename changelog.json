@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.81.2",
+			"date": "2026-09-15",
+			"highlights": [
+				"Markers on the launch globe now stay in proportion with the aircraft cards at the larger interface sizes, instead of growing until they dominated the view."
+			]
+		},
+		{
 			"version": "0.81.1",
 			"date": "2026-09-15",
 			"highlights": [
