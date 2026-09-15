@@ -2,6 +2,16 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.81.1",
+			"date": "2026-09-15",
+			"highlights": [
+				"Stopping a mission and starting it again now carries on from where you stopped: the drone flies to the next waypoint in the mission rather than the nearest one, and the video picks up at that waypoint.",
+				"The drone marker no longer jumps back to home when a mission is paused or restarted. While the video is held it follows live telemetry instead of a frozen frame.",
+				"The video panel names the waypoint it is waiting for (\"Flying to waypoint 6\") and uses the same waypoint numbers as the map.",
+				"The Dashboard link works straight from a fresh start when a flight plan is already loaded, instead of asking you to pick the aircraft again."
+			]
+		},
+		{
 			"version": "0.81.0",
 			"date": "2026-09-15",
 			"highlights": [
