@@ -2,6 +2,17 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.81.0",
+			"date": "2026-09-15",
+			"highlights": [
+				"The launch page and Admin now have their own interface size, set from the terminal on the launch page: type a size (XS to XXL) or click one in the list. It is remembered on this machine and the interface glides between sizes rather than jumping.",
+				"The dashboard is unchanged: its size still belongs to the active layout, so a layout built for a projector or a laptop keeps sizing its panels and header together.",
+				"Markers you drag around the globe now stay where you put them, and come back in the same arrangement next time you open the app.",
+				"Launching the simulator with a flight plan chosen now starts the mission on arrival, once the video feeds have finished connecting.",
+				"The launch terminal takes typed input: the cursor sits on the line you type on, the size list shows which one is in force, and only letters that can reach a real size are accepted."
+			]
+		},
+		{
 			"version": "0.80.1",
 			"date": "2026-09-14",
 			"highlights": [
