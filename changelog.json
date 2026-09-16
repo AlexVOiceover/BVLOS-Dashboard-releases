@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.81.4",
+			"date": "2026-09-16",
+			"highlights": [
+				"The compass on the video panel now stays in step with the drone marker and mission tape during synced mission playback, instead of running ahead or behind by up to a waypoint."
+			]
+		},
+		{
 			"version": "0.81.3",
 			"date": "2026-09-16",
 			"highlights": [
