@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.81.8",
+			"date": "2026-09-16",
+			"highlights": [
+				"You can now click the UPDATE CHECK line on the launch screen to check for a new version again on demand."
+			]
+		},
+		{
 			"version": "0.81.7",
 			"date": "2026-09-16",
 			"highlights": [
