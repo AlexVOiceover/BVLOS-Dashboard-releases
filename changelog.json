@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.81.5",
+			"date": "2026-09-16",
+			"highlights": [
+				"The compass now turns smoothly through the simulator's tight corners during synced playback, instead of snapping between headings."
+			]
+		},
+		{
 			"version": "0.81.4",
 			"date": "2026-09-16",
 			"highlights": [
