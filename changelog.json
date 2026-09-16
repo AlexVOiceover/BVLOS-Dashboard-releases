@@ -2,6 +2,14 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.81.6",
+			"date": "2026-09-16",
+			"highlights": [
+				"The update messages now name the version: the boot terminal shows which version is downloading, and the green \"update ready\" button shows the version it will install.",
+				"New installs now default to the AIR4 Rugged drone profile. Machines that already picked a drone keep their choice."
+			]
+		},
+		{
 			"version": "0.81.5",
 			"date": "2026-09-16",
 			"highlights": [
