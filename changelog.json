@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.81.9",
+			"date": "2026-09-16",
+			"highlights": [
+				"The simulator battery voltage now matches the selected drone (4S, 12S, etc.), so a full pack no longer shows a false low-battery warning. The warning appears as the charge actually drops."
+			]
+		},
+		{
 			"version": "0.81.8",
 			"date": "2026-09-16",
 			"highlights": [
