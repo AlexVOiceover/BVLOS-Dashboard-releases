@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.81.10",
+			"date": "2026-09-16",
+			"highlights": [
+				"Removed the \"what's new\" link from the launch terminal to keep it tidy. Release notes are still on the Admin Changelog tab."
+			]
+		},
+		{
 			"version": "0.81.9",
 			"date": "2026-09-16",
 			"highlights": [
