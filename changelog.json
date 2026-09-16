@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.81.7",
+			"date": "2026-09-16",
+			"highlights": [
+				"The flashing status lights on the connecting screen now sit correctly on the AIR8 and AIR4 Rugged photos."
+			]
+		},
+		{
 			"version": "0.81.6",
 			"date": "2026-09-16",
 			"highlights": [
