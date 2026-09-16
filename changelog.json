@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.81.3",
+			"date": "2026-09-16",
+			"highlights": [
+				"The app now opens fullscreen on every launch, filling the station monitor. You can still leave fullscreen from the header button or F11."
+			]
+		},
+		{
 			"version": "0.81.2",
 			"date": "2026-09-15",
 			"highlights": [
