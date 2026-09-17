@@ -2,6 +2,14 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.84.3",
+			"date": "2026-09-17",
+			"highlights": [
+				"The \"Exported\" badge on a mission no longer says it is out of date just because you ran a mission. It now tracks the content of that mission, so it only flags a bundle when the mission has actually been edited.",
+				"The app name on the globe page has slightly more spacing between its letters, matching the brand artwork."
+			]
+		},
+		{
 			"version": "0.84.2",
 			"date": "2026-09-17",
 			"highlights": [
