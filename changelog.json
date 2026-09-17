@@ -2,6 +2,29 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.84.2",
+			"date": "2026-09-17",
+			"highlights": [
+				"Labels that belong to a group now join their line to the middle of the label, the same as every other one. They used to hang the line off the small icon."
+			]
+		},
+		{
+			"version": "0.84.1",
+			"date": "2026-09-17",
+			"highlights": [
+				"The app name on the globe page now reads AIRBORNE FLIGHT MONITOR, matching the other pages. That page had its own copy of the name, so an earlier change to the branding never reached it."
+			]
+		},
+		{
+			"version": "0.84.0",
+			"date": "2026-09-17",
+			"highlights": [
+				"The labels on the globe now settle and stay put. One would slide back and forth on its own, pairs bounced against each other, and at some views the whole group vibrated.",
+				"A label that cannot find room now eases off and parks instead of fighting its neighbour forever. It sits a little further from its point, which is a fair trade for a deck that holds still.",
+				"Labels move more gently when they do rearrange, so a busy globe no longer snaps things around."
+			]
+		},
+		{
 			"version": "0.83.1",
 			"date": "2026-09-17",
 			"highlights": [
