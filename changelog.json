@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.84.5",
+			"date": "2026-09-17",
+			"highlights": [
+				"Updated the build tools to clear 11 security advisories. Nothing in the app itself was affected, so this changes no behaviour."
+			]
+		},
+		{
 			"version": "0.84.4",
 			"date": "2026-09-17",
 			"highlights": [
