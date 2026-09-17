@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.83.1",
+			"date": "2026-09-17",
+			"highlights": [
+				"Dragging a chip on the Flight Deck now moves it from the point you grabbed, instead of jumping the pill so its icon sits under the cursor.",
+				"The Admin page hides its title once you scroll, leaving just the tabs pinned under the header so there is more room for the content.",
+				"Fixed the Admin header flickering on and off while scrolling past the point where the tabs stick."
+			]
+		},
+		{
 			"version": "0.83.0",
 			"date": "2026-09-17",
 			"highlights": [
