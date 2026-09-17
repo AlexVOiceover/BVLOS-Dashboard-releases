@@ -2,6 +2,17 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.83.0",
+			"date": "2026-09-17",
+			"highlights": [
+				"Setting a video on a mission now copies it into that mission, so the mission keeps working even if you move, rename or delete the file you picked. Large videos show a progress percentage and can be cancelled.",
+				"Deleting a mission now also removes the videos it copied, so old footage no longer builds up.",
+				"The battery warning on the video overlay says which reading raised it. A full pack whose voltage is low now reads \"LOW BATT 36.5V\" instead of the confusing \"LOW BATT 99%\".",
+				"The Admin missions tab is tidier: the list is called Example missions, the duplicated download heading is gone, and the staff passphrase has moved to the bottom.",
+				"The app title in the header is now AIRBORNE FLIGHT MONITOR."
+			]
+		},
+		{
 			"version": "0.82.0",
 			"date": "2026-09-17",
 			"highlights": [
