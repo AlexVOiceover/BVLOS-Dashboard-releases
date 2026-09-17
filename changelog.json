@@ -2,6 +2,14 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.81.11",
+			"date": "2026-09-17",
+			"highlights": [
+				"Restarting a mission keeps the map exactly where you left it. It no longer resets your zoom and pan, so you can stay focused on one part of the flight.",
+				"Switching to a different mission while one is running now stops the current flight first, loads the new mission, and starts flying it again. The video no longer flashes the beginning of the new footage before catching up."
+			]
+		},
+		{
 			"version": "0.81.10",
 			"date": "2026-09-16",
 			"highlights": [
