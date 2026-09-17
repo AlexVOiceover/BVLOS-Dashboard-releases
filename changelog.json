@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.85.0",
+			"date": "2026-09-17",
+			"highlights": [
+				"Activate a mission in Admin and the Dashboard button now takes you straight to it: the simulator starts on that mission and begins flying, instead of the button sitting greyed out.",
+				"The button names the mission it will fly, so the click is never a surprise.",
+				"It only does this when no aircraft is selected, so it can never switch you off a live gateway."
+			]
+		},
+		{
 			"version": "0.84.5",
 			"date": "2026-09-17",
 			"highlights": [
