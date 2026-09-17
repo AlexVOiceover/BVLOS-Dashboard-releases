@@ -2,6 +2,13 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.84.4",
+			"date": "2026-09-17",
+			"highlights": [
+				"Mission lists are now in alphabetical order everywhere: the Admin missions tab, the download picker and the setup wizard. The list no longer reshuffles when you add a mission, so you can find one by name."
+			]
+		},
+		{
 			"version": "0.84.3",
 			"date": "2026-09-17",
 			"highlights": [
