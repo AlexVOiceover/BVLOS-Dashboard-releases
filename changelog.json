@@ -2,6 +2,16 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.82.0",
+			"date": "2026-09-17",
+			"highlights": [
+				"Missions can be copied. Each mission in Admin has a Clone button: name the copy and you get a fully independent mission, so you can build a variation without touching the original.",
+				"A copy is a real copy, video and all. Editing or deleting either mission leaves the other untouched.",
+				"Copying shows a live percentage and can be cancelled. A cancelled copy leaves nothing behind.",
+				"Missions that are not yet synced can be copied too, so you can duplicate a mission while you are still setting it up."
+			]
+		},
+		{
 			"version": "0.81.12",
 			"date": "2026-09-17",
 			"highlights": [
