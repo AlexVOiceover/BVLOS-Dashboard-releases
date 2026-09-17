@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.81.12",
+			"date": "2026-09-17",
+			"highlights": [
+				"The Admin page keeps its title and tabs on screen while you scroll, so you can switch between System, Missions, Logs, Changelog and Manual from anywhere on a long page.",
+				"The header shrinks once you start scrolling, giving the content more room without hiding the tabs.",
+				"The setup wizard's last button now says \"All done\" instead of \"Open dashboard\", which matches where it actually takes you: the Flight Deck, to pick a source."
+			]
+		},
+		{
 			"version": "0.81.11",
 			"date": "2026-09-17",
 			"highlights": [
