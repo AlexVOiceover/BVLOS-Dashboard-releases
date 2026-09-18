@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.86.0",
+			"date": "2026-09-18",
+			"highlights": [
+				"New \"Video Rate\" parameter shows the live video transmission speed (kb/s, auto Mb/s) so you can see how well the Videosoft link is performing.",
+				"Selectable in both the Graph and the Telemetry panels, and listed first in each parameter picker. It is off by default: turn it on from either panel config.",
+				"Measured end to end on the video the app actually receives, so it drops toward 0 if the video stalls. The simulator has no live video, so it reads 0 there."
+			]
+		},
+		{
 			"version": "0.85.2",
 			"date": "2026-09-17",
 			"highlights": [
