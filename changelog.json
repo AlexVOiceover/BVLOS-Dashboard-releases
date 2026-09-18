@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.86.1",
+			"date": "2026-09-18",
+			"highlights": [
+				"Fixed the home (house) icon drifting across the map with the drone when a second person was connected to the same gateway. The map now trusts telemetry only from the aircraft itself.",
+				"This also protects the drone position, GPS, attitude and other readings from being disturbed by a second connected client sharing the link.",
+				"Home now stays put once set, and only moves if the aircraft is deliberately given a new home point."
+			]
+		},
+		{
 			"version": "0.86.0",
 			"date": "2026-09-18",
 			"highlights": [
