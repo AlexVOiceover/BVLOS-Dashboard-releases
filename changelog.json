@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.85.2",
+			"date": "2026-09-17",
+			"highlights": [
+				"Camera control now works with controllers whose tilt is on the D-pad or buttons, not just a rocker axis: the joystick mapping step accepts either. Map the camera again in Admin to use your D-pad.",
+				"On the launch globe, the + and - keys now zoom in and out.",
+				"The Control panel attitude line (roll, pitch, yaw, camera) no longer wraps to two rows, so the panel stops jumping around."
+			]
+		},
+		{
 			"version": "0.85.1",
 			"date": "2026-09-17",
 			"highlights": [
