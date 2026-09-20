@@ -2,6 +2,17 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.87.0",
+			"date": "2026-09-20",
+			"highlights": [
+				"The chips on the launch globe no longer vibrate or wander. Their placement was rebuilt from scratch: each chip rests in a fixed slot around its point and stays put, including while the earth turns.",
+				"Chips hold their positions while you spin or zoom the globe and settle once, gently, when it stops. They no longer jump around mid-gesture.",
+				"Chip leader lines are much shorter (half the previous maximum). The limit applies to every chip, including ones you drag and ones from an earlier session, and to the chips of an opened stack.",
+				"Changing the interface size now resizes the chips smoothly along with everything else, and closing a stack glides its chip back out instead of popping it into place.",
+				"Downloading example missions: each row now reads \"installed\" the moment that mission is ready, and the Missions list refreshes as they arrive, even if you close the window early."
+			]
+		},
+		{
 			"version": "0.86.1",
 			"date": "2026-09-18",
 			"highlights": [
