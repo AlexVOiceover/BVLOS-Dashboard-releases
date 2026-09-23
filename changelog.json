@@ -2,6 +2,25 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.88.1",
+			"date": "2026-09-23",
+			"highlights": [
+				"Missions launched from Admin now start automatically on arrival even when the Mission panel is hidden in your layout. Before, the flight would wait until you opened that panel."
+			]
+		},
+		{
+			"version": "0.88.0",
+			"date": "2026-09-23",
+			"highlights": [
+				"The dashboard header now shows the active aircraft (icon and name) right beside the source and link status, in one combined pill, so you can always see which drone is selected while flying.",
+				"Each drone can now carry its own joystick tuning, so a heavy AIR8 can feel different from a nimble AIR4. Nothing changes until real per-drone values are set: every drone currently flies exactly as before.",
+				"Switching the drone in Admin now updates the dashboard indicator (and its warning thresholds) immediately, instead of only after a reload.",
+				"Added an extra-small size step (XXS) to the launch globe and Admin size options, for very tight screens.",
+				"Pressing Read from drone while flying now shows the read status long enough to actually see it, instead of flashing by.",
+				"The move cursor over the video panels is now clearly visible against bright video."
+			]
+		},
+		{
 			"version": "0.87.0",
 			"date": "2026-09-20",
 			"highlights": [
