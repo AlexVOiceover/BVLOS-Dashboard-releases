@@ -2,6 +2,17 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.91.0",
+			"date": "2026-09-25",
+			"highlights": [
+				"Fixed a throttle problem where lowering the sensitivity stopped the aircraft from climbing at full stick. Throttle now always reaches full climb, holds at centre, and reaches zero for arming at any sensitivity.",
+				"The simulator (synthetic view) now responds to camera pitch, yaw and zoom, so you can practise all camera controls before a real flight.",
+				"Added keyboard camera controls: [ and ] for tilt, comma and period for pan, o and p for zoom out and in.",
+				"The camera indicator (D-pad arrows plus zoom) now sits between the joysticks, and the panel was resized so the sticks always fit.",
+				"Note: camera zoom on the real drone still needs its channel set for the aircraft; it is fully wired and works in the simulator."
+			]
+		},
+		{
 			"version": "0.90.0",
 			"date": "2026-09-25",
 			"highlights": [
