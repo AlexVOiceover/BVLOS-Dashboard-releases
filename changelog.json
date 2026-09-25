@@ -2,6 +2,17 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.89.0",
+			"date": "2026-09-24",
+			"highlights": [
+				"Joystick tuning is now saved per drone: tune each aircraft to its own feel and it is remembered for that drone. Switching the selected drone loads that drone's tuning automatically.",
+				"The Sensitivity slider now scales the actual response curves you can see in the tuning preview, instead of acting as a separate hidden setting. Lower it and the curves visibly ease off.",
+				"The response preview shows a live dot on each curve at your current stick position, so you can see exactly where on the curve you are flying.",
+				"Throttle safety: lowering sensitivity caps the top of the throttle but always keeps the bottom at zero, so the drone can always be armed.",
+				"Your per-drone tuning stays on your machine (your controller and preferences), and a good tune can later be packaged as the shipped default for a drone."
+			]
+		},
+		{
 			"version": "0.88.1",
 			"date": "2026-09-23",
 			"highlights": [
