@@ -2,6 +2,15 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.92.0",
+			"date": "2026-09-25",
+			"highlights": [
+				"The control panel now has a clear Joystick / Keyboard selector: pick your input source, then hold the bar below to enable it. No more confusion between the two.",
+				"You can switch to keyboard control even while a gamepad is plugged in, so you always have a way to fly with keys after using the joystick.",
+				"The keyboard shortcut list now shows all camera keys for the selected drone: tilt, plus pan and zoom where the aircraft supports them."
+			]
+		},
+		{
 			"version": "0.91.0",
 			"date": "2026-09-25",
 			"highlights": [
