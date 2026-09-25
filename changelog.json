@@ -2,6 +2,17 @@
 	"version": 1,
 	"releases": [
 		{
+			"version": "0.90.0",
+			"date": "2026-09-25",
+			"highlights": [
+				"Camera controls are now per drone. On the AIR4 Rugged the D-pad up/down moves the camera pitch and left/right moves the yaw, on their own channels. The AIR4 Light is unchanged.",
+				"The joystick setup now lets you map both camera axes (up/down and left/right) and the zoom buttons (for example the shoulder buttons), each with a live on-screen check.",
+				"The Control panel shows a camera D-pad next to the sticks: arrows light up as you move the camera, with a zoom in/out indicator. The left and right stick labels were removed for a cleaner look.",
+				"Zoom in/out is fully wired and mappable now. It stays inactive until a zoom channel is set for the aircraft, so nothing is sent until then.",
+				"When you have video but no telemetry, the connect screen now suggests restarting the Videosoft Bridge."
+			]
+		},
+		{
 			"version": "0.89.0",
 			"date": "2026-09-24",
 			"highlights": [
